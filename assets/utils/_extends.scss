@@ -1,0 +1,42 @@
+@import "./variables";
+
+%fontFamily-h2 {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    line-height: 50px;
+}
+
+%fontFamily-span {
+    font-family: "Courgette", cursive;
+    display: block;
+    text-align: center;
+}
+
+%input {
+    border-radius: 10px;
+    padding-left: 20px;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 14px;
+    color: $gray;
+}
+
+%a {
+    color: $black-2;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: $font-montserrat;
+    display: block;
+    text-align: center;
+    transition: .4s;
+    &:hover {
+        color: $red;
+    }
+    &:hover i {
+        color: $red;
+    }
+    i {
+        transition: .4s;
+        color: $black-3;
+    }
+}

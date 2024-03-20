@@ -1,0 +1,29 @@
+@import "./extends";
+@import "./variables";
+
+@mixin h2 ($color: #222, $fsz: 50px, ) {
+    color: $color;
+    font-size: $fsz;
+    @extend %fontFamily-h2;
+}
+
+@mixin span ($color: $red, $fsz: 30px) {
+    color: $color;
+    font-size: $fsz;
+    @extend %fontFamily-span;
+}
+
+@mixin flex ($display, $direction, $justify-content, $align-items) {
+    display: $display;
+    flex-direction: $direction;
+    justify-content: $justify-content;
+    align-items: $align-items;
+}
+
+@mixin bg ($url) {
+    background: url($url);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
