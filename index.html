@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- ! bootstrap CDN  -->
+    <link rel="icon" href="/img/ico/favicon.svg" type="image/x-icon">
     <!-- ! google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,8 +19,8 @@
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/assets/font-awesome-4.7.0/css/font-awesome.min.css">
-    
-    <title>Document</title>
+
+    <title>Home</title>
 </head>
 
 <body>
@@ -186,28 +187,266 @@
                             </div>
                         </div>
                         <a href="#">View Details<i class="fas fa-long-arrow-alt-right"
-                            style="margin-left: 10px; font-size: 10px;"></i></a>
+                                style="margin-left: 10px; font-size: 10px;"></i></a>
                     </div>
                 </div>
             </div>
         </div>
         <div class="reservation">
-            <span>Reservation</span>
-            <h2>BOOK TABLE</h2>
-            <form>
-                <div class="column">
-                    <label for="inputDate">Date</label>
-                    <input type="date" id="inputDate">
-                    <label for="inputTime">Time</label>
-                    <input type="time">
-                    <input type="text">
+            <div class="container">
+                <div class="unit">
+                    <div class="box1">
+                        <span>Reservation</span>
+                        <h2>BOOK TABLE</h2>
+                        <form>
+                            <div class="form_wrapper">
+                                <div class="column">
+                                    <label for="inputDate">Date</label><br>
+                                    <input type="date" id="inputDate"> <br>
+                                    <label for="inputTime">Time</label> <br>
+                                    <input type="time"> <br>
+                                    <label for="selectPeople">People</label><br>
+                                    <select name="options" id="selectPeople">
+                                        <option value="1">1 person</option>
+                                        <option value="2">2 people</option>
+                                        <option value="3">3 people</option>
+                                        <option value="4">4 people</option>
+                                        <option value="5">5 people</option>
+                                        <option value="6">6 people</option>
+                                        <option value="7">7 people</option>
+                                        <option value="8">8 people</option>
+                                        <option value="9">9 people</option>
+                                        <option value="10">10 people </option>
+                                        <option value="11">11 people </option>
+                                        <option value="12">12 people </option>
+                                    </select>
+                                </div>
+                                <div class="column">
+                                    <label for="inputName">Name</label> <br>
+                                    <input type="text" placeholder="Name" id="inputName"> <br>
+                                    <label for="inputPhone">Phone</label> <br>
+                                    <input type="tel" placeholder="Phone" id="inputPhone"> <br>
+                                    <label for="inputMail">Email</label> <br>
+                                    <input type="email" id="inputMail" placeholder="Email">
+                                </div>
+                            </div>
+                            <button type="submit">book table</button>
+                        </form>
+                    </div>
+                    <div class="box2">
+                        <div class="img">
+                            <img src="https://preview.colorlib.com/theme/pato/images/booking-01.jpg" alt="">
+                        </div>
+                    </div>
                 </div>
-                <div class="column"></div>
+            </div>
+        </div>
+        <div class="review">
+            <span>Customers Say</span>
+            <h2>REVIEW</h2>
+            <div class="circle">
+                <img src="https://preview.colorlib.com/theme/pato/images/avatar-05.jpg.webp" alt="">
+            </div>
+            <p class="paragraph">We are lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tellus sem,
+                mattis in pre-tium nec, fermentum viverra dui</p>
+            <div class="stars">
+                <i class="fa-solid fa-star" style="color: #d61c22;"></i>
+                <i class="fa-solid fa-star" style="color: #d61c22;"></i>
+                <i class="fa-solid fa-star" style="color: #d61c22;"></i>
+                <i class="fa-solid fa-star" style="color: #d61c22;"></i>
+                <i class="fa-solid fa-star" style="color: #d61c22;"></i>
+            </div>
+            <p class="whoyouare">Marie Simmons ˗ New York</p>
+        </div>
+        <div class="video">
+            <div class="video_wrapper">
+                <span>Discover</span>
+                <h2>OUR VIDEO</h2>
+                <div class="circle">
+                    <i class="fa-solid fa-play"></i>
+                </div>
+            </div>
+        </div>
+        <div class="news">
+            <span class="titleTop">Latest News</span>
+            <h2>THE BLOG</h2>
+            <div class="news__unit">
+                <div class="card">
+                    <div class="img">
+                        <img src="https://preview.colorlib.com/theme/pato/images/blog-01.jpg.webp" alt="">
+                        <div class="stick"><span>21 Dec 2017</span></div>
+                    </div>
+                    <div class="descr">
+                        <h3>BEST PLACES FOR WINE</h3>
+                        <p>Phasellus lorem enim, luctus ut velit eget, con-vallis egestas eros.</p>
+                        <a href="#">CONTINUE READING <i class="fas fa-long-arrow-alt-right"
+                                style="margin-left: 10px; font-size: 10px;"></i></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="https://preview.colorlib.com/theme/pato/images/blog-02.jpg.webp" alt="">
+                        <div class="stick"><span>15 Dec 2017</span></div>
+                    </div>
+                    <div class="descr">
+                        <h3>ROMANTIC RESTAURANT</h3>
+                        <p>Duis elementum, risus sit amet lobortis nunc justo condimentum ligula, vitae feugiat.</p>
+                        <a href="#">CONTINUE READING <i class="fas fa-long-arrow-alt-right"
+                                style="margin-left: 10px; font-size: 10px;"></i></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img">
+                        <img src="https://preview.colorlib.com/theme/pato/images/blog-03.jpg.webp" alt="">
+                        <div class="stick"><span>12 Dec 2017</span></div>
+                    </div>
+                    <div class="descr">
+                        <h3>ROMANTIC RESTAURANT</h3>
+                        <p>Sed ornare ligula eget tortor tempor, quis porta tellus dictum.</p>
+                        <a href="#">CONTINUE READING <i class="fas fa-long-arrow-alt-right"
+                                style="margin-left: 10px; font-size: 10px;"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="specialsSignUp">
+            <form>
+                <label for="specialsSignUp__emailInput">SPECIALS SIGN UP</label>
+                <input id="specialsSignUp__emailInput" type="email" placeholder="Email Adress">
+                <button type="submit">SIGN-UP</button>
             </form>
         </div>
     </main>
-
-
+    <footer>
+        <div class="container">
+            <div class="wrapper">
+                <div class="card">
+                    <div class="box">
+                        <h3>CONTACT US</h3>
+                        <ul>
+                            <li><i class="fa-solid fa-location-dot"></i>8th floor, 379 Hudson St, New York, NY 10018
+                            </li>
+                            <li><i class="fa-solid fa-phone"></i>(+1) 96 716 6879</li>
+                            <li><i class="fa-solid fa-envelope"></i>contact@site.com</li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <h3>OPENING TIMES</h3>
+                        <p>09:30 AM – 11:00 PM <br>
+                            Every Day</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3>LATEST TWITTER</h3>
+                    <div class="box">
+                        <i class="fa-brands fa-twitter"></i>
+                        <a href="#">@colorlib</a>
+                        <p>Activello is a good option. It has a slider built into that displays the featured image in
+                            the slider.</p>
+                        <a href="https://buff.ly/2zaSfAQ">https://buff.ly/2zaSfAQ</a> <br>
+                        <span>21 Dec 2017</span>
+                    </div>
+                    <div class="box">
+                        <i class="fa-brands fa-twitter"></i>
+                        <a href="#">@colorlib</a>
+                        <p>Activello is a good option. It has a slider built into that displays the featured image in
+                            the slider.</p>
+                        <a href="https://buff.ly/2zaSfAQ">https://buff.ly/2zaSfAQ</a> <br>
+                        <span>21 Dec 2017</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3>GALLERY</h3>
+                    <div class="parent">
+                        <div class="div1 grid_img_box">
+                            <div class="img_grid">
+                                <img src="https://preview.colorlib.com/theme/pato/images/photo-gallery-thumb-01.jpg"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="div2 grid_img_box">
+                            <div class="img_grid">
+                                <img src="https://preview.colorlib.com/theme/pato/images/photo-gallery-thumb-02.jpg"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="div3 grid_img_box">
+                            <div class="img_grid">
+                                <img src="https://preview.colorlib.com/theme/pato/images/photo-gallery-thumb-03.jpg"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="div4 grid_img_box">
+                            <div class="img_grid">
+                                <img src="https://preview.colorlib.com/theme/pato/images/photo-gallery-thumb-04.jpg"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="div5 grid_img_box">
+                            <div class="img_grid">
+                                <img src="https://preview.colorlib.com/theme/pato/images/photo-gallery-thumb-05.jpg"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="div6 grid_img_box">
+                            <div class="img_grid">
+                                <img src="https://preview.colorlib.com/theme/pato/images/photo-gallery-thumb-06.jpg"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="div7 grid_img_box">
+                            <div class="img_grid">
+                                <img src="https://preview.colorlib.com/theme/pato/images/photo-gallery-thumb-07.jpg"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="div8 grid_img_box">
+                            <div class="img_grid">
+                                <img src="https://preview.colorlib.com/theme/pato/images/photo-gallery-thumb-08.jpg"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="div9 grid_img_box">
+                            <div class="img_grid">
+                                <img src="https://preview.colorlib.com/theme/pato/images/photo-gallery-thumb-09.jpg"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="div10 grid_img_box">
+                            <div class="img_grid">
+                                <img src="https://preview.colorlib.com/theme/pato/images/photo-gallery-thumb-10.jpg"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="div11 grid_img_box">
+                            <div class="img_grid">
+                                <img src="https://preview.colorlib.com/theme/pato/images/photo-gallery-thumb-11.jpg"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="div12 grid_img_box">
+                            <div class="img_grid">
+                                <img src="https://preview.colorlib.com/theme/pato/images/photo-gallery-thumb-12.jpg"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <div class="container">
+                <div class="unit">
+                    <div class="socials">
+                        <i class="fa fa-tripadvisor" aria-hidden="true"></i>
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    <p>@ 2017 Colorlib. <span>Get The Theme</span></p>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="main.js"></script>
 </body>
 

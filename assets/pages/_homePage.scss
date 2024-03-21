@@ -184,6 +184,7 @@ body {
                     width: 370px;
                     height: 219px;
                     transition: .5s;
+                    cursor: pointer;
 
                     &:hover {
                         transform: scale(1.1);
@@ -254,7 +255,8 @@ body {
             overflow: hidden;
             position: relative;
             width: 370px;
-            height: 231px   ;
+            height: 231px;
+
             button {
                 position: absolute;
                 top: 50%;
@@ -273,6 +275,7 @@ body {
                 opacity: 0.9;
                 transition: 0.3s;
                 cursor: pointer;
+
                 &:hover {
                     background-color: #ec1d25;
                     color: white;
@@ -283,6 +286,7 @@ body {
                 transition: .3s;
                 width: 370px;
                 height: 231px;
+
                 &:hover {
                     transform: scale(1.1);
                 }
@@ -296,6 +300,7 @@ body {
             width: 370px;
             height: 231px;
             transform: scale(1);
+
             button {
                 position: absolute;
                 top: 50%;
@@ -314,6 +319,7 @@ body {
                 opacity: 0.9;
                 transition: 0.3s;
                 cursor: pointer;
+
                 &:hover {
                     background-color: #ec1d25;
                     color: white;
@@ -324,6 +330,7 @@ body {
                 transition: .3s;
                 width: 370px;
                 height: 231px;
+
                 &:hover {
                     transform: scale(1.1);
                 }
@@ -337,6 +344,7 @@ body {
             width: 370px;
             height: 492px;
             transform: scale(1);
+
             button {
                 position: absolute;
                 top: 50%;
@@ -355,6 +363,7 @@ body {
                 opacity: 0.9;
                 transition: 0.3s;
                 cursor: pointer;
+
                 &:hover {
                     background-color: #ec1d25;
                     color: white;
@@ -365,6 +374,7 @@ body {
                 transition: .3s;
                 width: 370px;
                 height: 492px;
+
                 &:hover {
                     transform: scale(1.1);
                 }
@@ -378,6 +388,7 @@ body {
             height: 492px;
             width: 370px;
             transform: scale(1);
+
             button {
                 position: absolute;
                 top: 50%;
@@ -396,6 +407,7 @@ body {
                 opacity: 0.9;
                 transition: 0.3s;
                 cursor: pointer;
+
                 &:hover {
                     background-color: #ec1d25;
                     color: white;
@@ -404,9 +416,11 @@ body {
 
             img {
                 transition: .3s;
+
                 &:hover {
                     transform: scale(1.1);
                 }
+
                 width: 370px;
                 height: 492px;
             }
@@ -417,6 +431,7 @@ body {
             overflow: hidden;
             position: relative;
             transform: scale(1);
+
             button {
                 position: absolute;
                 top: 50%;
@@ -435,6 +450,7 @@ body {
                 opacity: 0.9;
                 transition: 0.3s;
                 cursor: pointer;
+
                 &:hover {
                     background-color: #ec1d25;
                     color: white;
@@ -445,6 +461,7 @@ body {
                 transition: .3s;
                 width: 770px;
                 height: 231px;
+
                 &:hover {
                     transform: scale(1.1);
                 }
@@ -456,6 +473,7 @@ body {
             overflow: hidden;
             position: relative;
             transform: scale(1);
+
             button {
                 position: absolute;
                 top: 50%;
@@ -474,6 +492,7 @@ body {
                 opacity: 0.9;
                 transition: 0.3s;
                 cursor: pointer;
+
                 &:hover {
                     background-color: #ec1d25;
                     color: white;
@@ -484,6 +503,7 @@ body {
                 transition: .3s;
                 width: 370px;
                 height: 231px;
+
                 &:hover {
                     transform: scale(1.1);
                 }
@@ -496,21 +516,26 @@ body {
     width: 100%;
     padding: 115px 0 208px;
     @include bg('https://preview.colorlib.com/theme/pato/images/bg-event-01.jpg.webp');
+
     .titleTop {
         @include span
     }
+
     h2 {
         @include h2(white);
         margin-bottom: 60px;
     }
+
     &__wrapper {
         @include flex(flex, row, center, center);
         width: 100%;
+
         .img {
             @include bg('https://preview.colorlib.com/theme/pato/images/event-02.jpg.webp');
             width: 585px;
             height: 390px;
             position: relative;
+
             div {
                 width: 390px;
                 height: 50px;
@@ -526,11 +551,13 @@ body {
                 letter-spacing: 2px;
             }
         }
+
         .typog {
             width: 585px;
             height: 390px;
             background-color: white;
             padding: 45px 40px 30px;
+
             h4 {
                 margin-top: 30px;
                 margin-bottom: 10px;
@@ -543,6 +570,7 @@ body {
                 letter-spacing: 3px;
                 text-align: center;
             }
+
             p {
                 font-family: Montserrat;
                 font-weight: 400;
@@ -552,27 +580,33 @@ body {
                 margin: 0px;
                 text-align: center;
             }
+
             a {
                 @extend %a;
                 margin-top: 40px;
             }
+
             .timer {
                 margin-top: 55px;
                 background-color: white;
+
                 &__items {
                     width: 505px;
                     @include flex(flex, row, space-around, center);
+
                     .timer__item {
                         width: 70px;
                         @include h2 ($color: $red);
                         font-weight: 600;
                     }
                 }
+
                 &__periods {
                     font-size: 12px;
                     font-family: $font-montserrat;
                     color: $gray;
                     @include flex(flex, row, space-around, center);
+
                     span {
                         text-align: center;
                         width: 70px;
@@ -580,6 +614,363 @@ body {
                     }
                 }
             }
-        } 
+        }
     }
 }
+
+.reservation {
+    background-color: #EFEFEF;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 110px;
+
+    .unit {
+        @include flex (flex, row, center, center);
+
+        .box1 {
+            width: 600px;
+            padding: 0 15px 30px;
+
+            span {
+                @include span;
+            }
+
+            h2 {
+                @include h2;
+                letter-spacing: 6px;
+                line-height: 1.2;
+            }
+
+            form {
+                .form_wrapper {
+                    @include flex(flex, row, space-between, center);
+                    width: 100%;
+
+                    .column {
+                        label {
+                            font-size: 15px;
+                            color: #555;
+                        }
+
+                        input {
+                            margin: 3px 0 23px;
+                            padding-right: 15px;
+                        }
+
+                        input,
+                        select {
+                            @extend %input;
+                            width: 266px;
+                            height: 46px;
+                            border: 1px solid rgb(188, 188, 188);
+                            margin: 3px 0 23px;
+                        }
+
+                        select {
+                            padding-right: 10px;
+                            appearance: none;
+                            background: url('/assets/font-awesome-4.7.0/svg/down-arrow\ \(1\).png') no-repeat right, white;
+                            background-size: 20px;
+                            background-position-x: calc(100% - 15px);
+                        }
+                    }
+                }
+
+                button {
+                    display: block;
+                    margin: 0 auto;
+                    width: 150px;
+                    height: 40px;
+                    background-color: #111;
+                    color: white;
+                    border-radius: 10px;
+                    border: none;
+                    font-size: 12px;
+                    letter-spacing: 1px;
+                    line-height: 1.1;
+                    text-transform: uppercase;
+                    transition: .3s;
+                    cursor: pointer;
+                    margin-top: 10px;
+
+                    &:hover {
+                        background-color: $red;
+                    }
+                }
+            }
+        }
+
+        .box2 {
+            @include flex(flex, row, center, flex-start);
+            width: 600px;
+            padding: 18px 15px 30px;
+
+            .img {
+                width: 390px;
+                height: 390px;
+                overflow: hidden;
+                border-radius: 20px;
+
+                img {
+                    width: 390px;
+                    height: 390px;
+                    transition: 0.4s;
+
+                    &:hover {
+                        transform: scale(1.1);
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.review {
+    width: 100%;
+    padding-top: 115px;
+    padding-bottom: 140px;
+    background-color: #fff;
+
+    span {
+        @include span;
+    }
+
+    h2 {
+        @include h2;
+        letter-spacing: 11px;
+        line-height: 1.2;
+    }
+
+    .paragraph {
+        width: 890px;
+        margin: 0 auto;
+        text-align: center;
+        color: $gray;
+        font-size: 18px;
+        margin-top: 30px;
+        line-height: 1.7;
+        font-weight: 400;
+    }
+
+    .whoyouare {
+        font-weight: 400;
+        font-size: 12px;
+        color: #222222;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        text-align: center;
+        margin-top: 32px;
+    }
+
+    .stars {
+        @include flex (flex, row, center, center);
+        margin-top: 15px;
+
+        i {
+            font-size: 16px;
+        }
+    }
+
+    .circle {
+        margin: 0 auto;
+        margin-top: 50px;
+        width: 117px;
+        height: 117px;
+        border-radius: 50%;
+        border: 5px $red solid;
+        @include flex(flex, row, center, center);
+
+        img {
+            width: 109px;
+            height: 109px;
+            border-radius: 50%;
+        }
+    }
+}
+
+.video {
+    width: 100%;
+    height: 720px;
+    @include bg('https://preview.colorlib.com/theme/pato/images/bg-cover-video-02.jpg.webp');
+    background-attachment: fixed;
+
+    .video_wrapper {
+        background: #0000006d;
+        height: 100%;
+        padding: 225px 0 230px;
+        width: 100%;
+
+        span {
+            @include span;
+        }
+
+        h2 {
+            margin-top: 5px;
+            @include h2(white);
+            word-spacing: 6px;
+            letter-spacing: 10px;
+            letter-spacing: 10px;
+        }
+
+        .circle {
+            margin: 0 auto;
+            margin-top: 43px;
+            width: 70px;
+            height: 70px;
+            background-color: white;
+            border-radius: 50%;
+            @include flex(flex, row, center, center);
+            transition: .4s;
+            cursor: pointer;
+
+            &:hover {
+                background-color: $red;
+                opacity: 0.7;
+                transform: scale(1.2);
+            }
+
+            &:hover i {
+                color: white;
+            }
+
+            i {
+                font-size: 16px;
+                color: black;
+                margin-left: 3px;
+                transition: .3s;
+            }
+        }
+    }
+}
+
+.news {
+    width: 100%;
+    padding-top: 115px;
+    padding-bottom: 120px;
+    background-color: #FFFFFF;
+
+    .titleTop {
+        @include span;
+    }
+
+    h2 {
+        @include h2;
+        margin-bottom: 30px;
+    }
+
+    &__unit {
+        @include flex(flex, row, center, center);
+        gap: 30px;
+
+        .card {
+            padding-top: 30px;
+            max-width: 370px;
+            position: relative;
+
+            .img {
+                width: 370px;
+                height: 219px;
+                overflow: hidden;
+                border-radius: 20px;
+
+                .stick {
+                    position: absolute;
+                    top: 220px;
+                    z-index: 999;
+                    background-color: rgba(0, 0, 0, 0.5);
+                    padding: 3px 15px;
+                    font-weight: 400;
+                    font-size: 12px;
+                    color: white;
+                    border-radius: 4px;
+                    left: 14px;
+                }
+
+                img {
+                    width: 370px;
+                    height: 219px;
+                    transition: .5s;
+                    cursor: pointer;
+
+                    &:hover {
+                        transform: scale(1.1);
+                    }
+                }
+            }
+
+            .descr {
+                padding-top: 30px;
+
+                h3 {
+                    color: $black-3;
+                    margin-bottom: 13px;
+                    font-size: 22px;
+                    font-family: $font-poppins;
+                    font-weight: 400;
+                    text-transform: uppercase;
+                    letter-spacing: 3px;
+                }
+
+                p {
+                    margin-bottom: 20px;
+                    font-size: 15px;
+                    color: $gray;
+                    line-height: 1.7;
+                }
+
+                a {
+                    @extend %a;
+                    text-align: start;
+                }
+            }
+        }
+    }
+}
+
+.specialsSignUp {
+    width: 100%;
+    background-color: #EFEFEF;
+    padding: 85px 0;
+
+    form {
+        @include flex(flex, row, center, center);
+        gap: 20px;
+
+        label {
+            font-family: Poppins;
+            font-weight: 500;
+            font-size: 22px;
+            color: #333333;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+        input {
+            @extend %input;
+            background: url('/assets/font-awesome-4.7.0/svg/envelope.png') no-repeat right;
+            background-size: 15px;
+            background-position-x: calc(100% - 15px);
+            color: #666666;
+            padding-right: 15px;
+            width: 266px;
+            height: 46px;
+            outline: none;
+            border: 1px solid rgba(128, 128, 128, 0.47);
+        }
+        button {
+            background-color: #111;
+            width: 160px;
+            height: 40px;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            transition: .3s;
+            cursor: pointer;
+            &:hover {
+                background: $red;
+                color: white;
+            }
+        }
+    }
+}
+
