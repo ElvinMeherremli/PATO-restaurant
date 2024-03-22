@@ -1,7 +1,17 @@
 @import "./base/reset";
+
+// ! nav
 @import "./layout/nav";
 @import "./layout/nav_media";
+
+// ! HOME page
 @import "./pages/homePage";
 @import "./pages/homePage_media";
+
+// ! MENU page
+@import "./pages/menuPage";
+@import "./pages/menuPage_media";
+
+// ! footer 
 @import "./layout/footer";
 @import "./layout/footer_media"

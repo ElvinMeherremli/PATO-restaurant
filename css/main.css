@@ -21,7 +21,7 @@ body {
   flex-wrap: wrap;
 }
 
-.news h2, .video .video_wrapper h2, .review h2, .reservation .unit .box1 h2, .events__wrapper .typog .timer__items .timer__item, .events h2, .menu h2, .wrapper .pato .txt h2, .welcome__unit .box h2, .welcome_top .mainTop__wrapper h1 {
+.lunch_jump .wrapper h2, .dinner_jump .wrapper h2, .menu-mainTop h1, .news h2, .video .video_wrapper h2, .review h2, .reservation .unit .box1 h2, .events__wrapper .typog .timer__items .timer__item, .events h2, .menu h2, .wrapper .pato .txt h2, .welcome__unit .box h2, .welcome_top .mainTop__wrapper h1 {
   font-family: "Poppins", sans-serif;
   text-align: center;
   line-height: 50px;
@@ -63,7 +63,17 @@ body {
   color: #333;
 }
 
-.news h2, .video .video_wrapper h2, .review h2, .reservation .unit .box1 h2, .events__wrapper .typog .timer__items .timer__item, .events h2, .menu h2, .wrapper .pato .txt h2, .welcome__unit .box h2, .welcome_top .mainTop__wrapper h1 {
+.menu-main_menu .unit .card .wrapper .top_title {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.2;
+  color: #222222;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.lunch_jump .wrapper h2, .dinner_jump .wrapper h2, .menu-mainTop h1, .news h2, .video .video_wrapper h2, .review h2, .reservation .unit .box1 h2, .events__wrapper .typog .timer__items .timer__item, .events h2, .menu h2, .wrapper .pato .txt h2, .welcome__unit .box h2, .welcome_top .mainTop__wrapper h1 {
   font-family: "Poppins", sans-serif;
   text-align: center;
   line-height: 50px;
@@ -103,6 +113,16 @@ body {
 .news__unit .card .descr a i, .events__wrapper .typog a i, .advantages__unit .card .descr a i, .welcome__unit .box a i {
   transition: 0.4s;
   color: #333;
+}
+
+.menu-main_menu .unit .card .wrapper .top_title {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.2;
+  color: #222222;
+  text-transform: uppercase;
+  letter-spacing: 3px;
 }
 
 header {
@@ -199,7 +219,7 @@ body {
   flex-wrap: wrap;
 }
 
-.news h2, .video .video_wrapper h2, .review h2, .reservation .unit .box1 h2, .events__wrapper .typog .timer__items .timer__item, .events h2, .menu h2, .wrapper .pato .txt h2, .welcome__unit .box h2, .welcome_top .mainTop__wrapper h1 {
+.lunch_jump .wrapper h2, .dinner_jump .wrapper h2, .menu-mainTop h1, .news h2, .video .video_wrapper h2, .review h2, .reservation .unit .box1 h2, .events__wrapper .typog .timer__items .timer__item, .events h2, .menu h2, .wrapper .pato .txt h2, .welcome__unit .box h2, .welcome_top .mainTop__wrapper h1 {
   font-family: "Poppins", sans-serif;
   text-align: center;
   line-height: 50px;
@@ -241,7 +261,17 @@ body {
   color: #333;
 }
 
-.news h2, .video .video_wrapper h2, .review h2, .reservation .unit .box1 h2, .events__wrapper .typog .timer__items .timer__item, .events h2, .menu h2, .wrapper .pato .txt h2, .welcome__unit .box h2, .welcome_top .mainTop__wrapper h1 {
+.menu-main_menu .unit .card .wrapper .top_title {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.2;
+  color: #222222;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.lunch_jump .wrapper h2, .dinner_jump .wrapper h2, .menu-mainTop h1, .news h2, .video .video_wrapper h2, .review h2, .reservation .unit .box1 h2, .events__wrapper .typog .timer__items .timer__item, .events h2, .menu h2, .wrapper .pato .txt h2, .welcome__unit .box h2, .welcome_top .mainTop__wrapper h1 {
   font-family: "Poppins", sans-serif;
   text-align: center;
   line-height: 50px;
@@ -281,6 +311,16 @@ body {
 .news__unit .card .descr a i, .events__wrapper .typog a i, .advantages__unit .card .descr a i, .welcome__unit .box a i {
   transition: 0.4s;
   color: #333;
+}
+
+.menu-main_menu .unit .card .wrapper .top_title {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.2;
+  color: #222222;
+  text-transform: uppercase;
+  letter-spacing: 3px;
 }
 
 body {
@@ -1402,7 +1442,7 @@ body {
   flex-wrap: wrap;
 }
 
-.welcome_top .mainTop__wrapper h1, .welcome__unit .box h2, .wrapper .pato .txt h2, .menu h2, .events h2, .events__wrapper .typog .timer__items .timer__item, .reservation .unit .box1 h2, .review h2, .video .video_wrapper h2, .news h2 {
+.lunch_jump .wrapper h2, .dinner_jump .wrapper h2, .menu-mainTop h1, .welcome_top .mainTop__wrapper h1, .welcome__unit .box h2, .wrapper .pato .txt h2, .menu h2, .events h2, .events__wrapper .typog .timer__items .timer__item, .reservation .unit .box1 h2, .review h2, .video .video_wrapper h2, .news h2 {
   font-family: "Poppins", sans-serif;
   text-align: center;
   line-height: 50px;
@@ -1444,7 +1484,17 @@ body {
   color: #333;
 }
 
-.welcome_top .mainTop__wrapper h1, .welcome__unit .box h2, .wrapper .pato .txt h2, .menu h2, .events h2, .events__wrapper .typog .timer__items .timer__item, .reservation .unit .box1 h2, .review h2, .video .video_wrapper h2, .news h2 {
+.menu-main_menu .unit .card .wrapper .top_title {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.2;
+  color: #222222;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.lunch_jump .wrapper h2, .dinner_jump .wrapper h2, .menu-mainTop h1, .welcome_top .mainTop__wrapper h1, .welcome__unit .box h2, .wrapper .pato .txt h2, .menu h2, .events h2, .events__wrapper .typog .timer__items .timer__item, .reservation .unit .box1 h2, .review h2, .video .video_wrapper h2, .news h2 {
   font-family: "Poppins", sans-serif;
   text-align: center;
   line-height: 50px;
@@ -1484,6 +1534,395 @@ body {
 .welcome__unit .box a i, .advantages__unit .card .descr a i, .events__wrapper .typog a i, .news__unit .card .descr a i {
   transition: 0.4s;
   color: #333;
+}
+
+.menu-main_menu .unit .card .wrapper .top_title {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.2;
+  color: #222222;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+html {
+  background-color: rgb(255, 61, 61);
+}
+
+.menu-mainTop {
+  width: 100%;
+  height: 80vh;
+  margin-top: -115px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: url("https://preview.colorlib.com/theme/pato/images/bg-title-page-01.jpg.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.menu-mainTop h1 {
+  color: white;
+  font-size: 50px;
+  text-transform: uppercase;
+  line-height: 1.2;
+  letter-spacing: 6px;
+  word-spacing: 6px;
+}
+
+.menu-main_menu {
+  background-color: #EFEFEF;
+  padding: 110px 20px 70px;
+}
+.menu-main_menu .unit {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 70px;
+}
+.menu-main_menu .unit .card {
+  width: 50%;
+}
+.menu-main_menu .unit .card .wrapper {
+  height: 100%;
+}
+.menu-main_menu .unit .card .wrapper .top_title {
+  margin-bottom: 35px;
+}
+.menu-main_menu .unit .card .wrapper .box {
+  margin-bottom: 60px;
+}
+.menu-main_menu .unit .card .wrapper .box .meal_name {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+}
+.menu-main_menu .unit .card .wrapper .box .meal_name h4 {
+  width: 90%;
+  font-family: Poppins;
+  font-weight: 300;
+  font-size: 18px;
+  color: #333333;
+  line-height: 1.4;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.menu-main_menu .unit .card .wrapper .box .meal_name h4 a {
+  color: #333;
+  transition: 0.3s;
+}
+.menu-main_menu .unit .card .wrapper .box .meal_name h4 a:hover {
+  color: #d61c22;
+}
+.menu-main_menu .unit .card .wrapper .box .meal_name .dottet_line {
+  width: 100%;
+  border-bottom: 1px #666 dashed;
+}
+.menu-main_menu .unit .card .wrapper .box .meal_name span {
+  margin-left: 40px;
+}
+.menu-main_menu .unit .card .wrapper .box p {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 13px;
+  color: #666666;
+  line-height: 1.7;
+}
+
+.lunch_jump, .dinner_jump {
+  width: 100%;
+  height: 395px;
+  background-attachment: fixed;
+}
+.lunch_jump .wrapper, .dinner_jump .wrapper {
+  background-color: rgba(0, 0, 0, 0.3529411765);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.lunch_jump .wrapper h2, .dinner_jump .wrapper h2 {
+  color: white;
+  font-size: 50px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  word-spacing: 6px;
+}
+
+.lunch_jump {
+  background: url("https://preview.colorlib.com/theme/pato/images/header-menu-01.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.dinner_jump {
+  background: url("https://preview.colorlib.com/theme/pato/images/header-menu-02.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.lunch_variables, .dinner_variables {
+  padding-top: 108px;
+  padding-bottom: 70px;
+  background-color: #FFFFFF;
+  width: 100%;
+}
+.lunch_variables .unit, .dinner_variables .unit {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.lunch_variables .unit .card, .dinner_variables .unit .card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 50%;
+}
+.lunch_variables .unit .card .box, .dinner_variables .unit .card .box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+.lunch_variables .unit .card .box .img, .dinner_variables .unit .card .box .img {
+  overflow: hidden;
+  border-radius: 20px;
+  width: 160px;
+  height: 120px;
+}
+.lunch_variables .unit .card .box .img img, .dinner_variables .unit .card .box .img img {
+  width: 160px;
+  height: 120px;
+  transition: 0.3s;
+}
+.lunch_variables .unit .card .box .img img:hover, .dinner_variables .unit .card .box .img img:hover {
+  transform: scale(1.1);
+}
+.lunch_variables .unit .card .box .descr, .dinner_variables .unit .card .box .descr {
+  padding: 10px 0;
+}
+.lunch_variables .unit .card .box .descr h5, .dinner_variables .unit .card .box .descr h5 {
+  font-family: Poppins;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.4;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.lunch_variables .unit .card .box .descr h5 a, .dinner_variables .unit .card .box .descr h5 a {
+  color: #333333;
+  transition: 0.3s;
+}
+.lunch_variables .unit .card .box .descr h5 a:hover, .dinner_variables .unit .card .box .descr h5 a:hover {
+  color: #d61c22;
+}
+.lunch_variables .unit .card .box .descr .title_bottom, .dinner_variables .unit .card .box .descr .title_bottom {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 13px;
+  color: #666666;
+  line-height: 1.7;
+  margin-top: 3px;
+}
+.lunch_variables .unit .card .box .descr .price, .dinner_variables .unit .card .box .descr .price {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 22px;
+  color: #333333;
+  line-height: 1.2;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+@media (max-width: 1200px) {
+  .lunch_variables .unit .card, .dinner_variables .unit .card {
+    align-items: center;
+  }
+}
+@media (max-width: 878px) {
+  .lunch_variables .unit, .dinner_variables .unit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+  }
+  .lunch_variables .unit .card, .dinner_variables .unit .card {
+    width: 90%;
+  }
+  .lunch_variables .unit .card .box, .dinner_variables .unit .card .box {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .menu-main_menu .unit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+  }
+  .menu-main_menu .unit .card {
+    width: 100%;
+    padding-left: 30px;
+  }
+  .menu-main_menu .unit .card .wrapper {
+    width: 100%;
+  }
+}
+@media (max-width: 576px) {
+  .menu-main_menu .unit .card .wrapper .box .dottet_line {
+    display: none;
+  }
+  .lunch_variables .unit .card .box, .dinner_variables .unit .card .box {
+    gap: 12px;
+  }
+  .lunch_variables .unit .card .box .descr h5, .dinner_variables .unit .card .box .descr h5 {
+    font-size: 15px;
+  }
+  .lunch_variables .unit .card .box .descr .title_bottom, .dinner_variables .unit .card .box .descr .title_bottom {
+    font-size: 11px;
+  }
+  .lunch_variables .unit .card .box .descr .price, .dinner_variables .unit .card .box .descr .price {
+    font-size: 18px;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.welcome_top .mainTop__wrapper h1, .welcome__unit .box h2, .wrapper .pato .txt h2, .menu h2, .events h2, .events__wrapper .typog .timer__items .timer__item, .reservation .unit .box1 h2, .review h2, .video .video_wrapper h2, .news h2, .menu-mainTop h1, .lunch_jump .wrapper h2, .dinner_jump .wrapper h2 {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  line-height: 50px;
+}
+
+.welcome_top .mainTop__wrapper span, .welcome__unit .box span, .wrapper .pato .txt span, .menu span, .events .titleTop, .reservation .unit .box1 span, .review span, .video .video_wrapper span, .news .titleTop {
+  font-family: "Courgette", cursive;
+  display: block;
+  text-align: center;
+}
+
+.reservation .unit .box1 form .form_wrapper .column input,
+.reservation .unit .box1 form .form_wrapper .column select, .specialsSignUp form input {
+  border-radius: 10px;
+  padding-left: 20px;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 14px;
+  color: #666;
+}
+
+.welcome__unit .box a, .advantages__unit .card .descr a, .events__wrapper .typog a, .news__unit .card .descr a {
+  color: #222;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  display: block;
+  text-align: center;
+  transition: 0.4s;
+}
+.welcome__unit .box a:hover, .advantages__unit .card .descr a:hover, .events__wrapper .typog a:hover, .news__unit .card .descr a:hover {
+  color: #d61c22;
+}
+.welcome__unit .box a:hover i, .advantages__unit .card .descr a:hover i, .events__wrapper .typog a:hover i, .news__unit .card .descr a:hover i {
+  color: #d61c22;
+}
+.welcome__unit .box a i, .advantages__unit .card .descr a i, .events__wrapper .typog a i, .news__unit .card .descr a i {
+  transition: 0.4s;
+  color: #333;
+}
+
+.menu-main_menu .unit .card .wrapper .top_title {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.2;
+  color: #222222;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.welcome_top .mainTop__wrapper h1, .welcome__unit .box h2, .wrapper .pato .txt h2, .menu h2, .events h2, .events__wrapper .typog .timer__items .timer__item, .reservation .unit .box1 h2, .review h2, .video .video_wrapper h2, .news h2, .menu-mainTop h1, .lunch_jump .wrapper h2, .dinner_jump .wrapper h2 {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  line-height: 50px;
+}
+
+.welcome_top .mainTop__wrapper span, .welcome__unit .box span, .wrapper .pato .txt span, .menu span, .events .titleTop, .reservation .unit .box1 span, .review span, .video .video_wrapper span, .news .titleTop {
+  font-family: "Courgette", cursive;
+  display: block;
+  text-align: center;
+}
+
+.reservation .unit .box1 form .form_wrapper .column input,
+.reservation .unit .box1 form .form_wrapper .column select, .specialsSignUp form input {
+  border-radius: 10px;
+  padding-left: 20px;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 14px;
+  color: #666;
+}
+
+.welcome__unit .box a, .advantages__unit .card .descr a, .events__wrapper .typog a, .news__unit .card .descr a {
+  color: #222;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  display: block;
+  text-align: center;
+  transition: 0.4s;
+}
+.welcome__unit .box a:hover, .advantages__unit .card .descr a:hover, .events__wrapper .typog a:hover, .news__unit .card .descr a:hover {
+  color: #d61c22;
+}
+.welcome__unit .box a:hover i, .advantages__unit .card .descr a:hover i, .events__wrapper .typog a:hover i, .news__unit .card .descr a:hover i {
+  color: #d61c22;
+}
+.welcome__unit .box a i, .advantages__unit .card .descr a i, .events__wrapper .typog a i, .news__unit .card .descr a i {
+  transition: 0.4s;
+  color: #333;
+}
+
+.menu-main_menu .unit .card .wrapper .top_title {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.2;
+  color: #222222;
+  text-transform: uppercase;
+  letter-spacing: 3px;
 }
 
 footer {
@@ -1692,6 +2131,13 @@ footer .wrapper .card .div12 img {
   }
   footer .wrapper .card .parent {
     display: none;
+  }
+  .footer_bottom {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  .footer_bottom .unit p {
+    font-size: 12px;
   }
 }
 @media (max-width: 924px) {
