@@ -1,0 +1,36 @@
+@import "../components/media_breakpoints";
+@import "../utils/variables";
+
+@include desktop () {
+    footer {
+        .wrapper {
+            .card {
+                ul {
+                    width: 270px;
+                }
+            }
+        }
+    }
+}
+
+@include mobile () {
+    footer {
+        .wrapper {
+            .card {
+                width: 320px;
+                .parent {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 924px) {
+    footer {
+        .wrapper {
+            @include flex(flex, column, flex-start, center);
+        }
+    }
+}
+

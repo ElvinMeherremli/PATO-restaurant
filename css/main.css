@@ -12,7 +12,7 @@ body {
 }
 
 .container {
-  width: 1170px;
+  max-width: 1170px;
   margin: 0 auto;
 }
 
@@ -21,13 +21,13 @@ body {
   flex-wrap: wrap;
 }
 
-.news h2, .video .video_wrapper h2, .review h2, .reservation .unit .box1 h2, .events__wrapper .typog .timer__items .timer__item, .events h2, .menu h2, .wrapper .pato .txt h2, .welcome__unit .box h2, .mainTop__wrapper h1 {
+.news h2, .video .video_wrapper h2, .review h2, .reservation .unit .box1 h2, .events__wrapper .typog .timer__items .timer__item, .events h2, .menu h2, .wrapper .pato .txt h2, .welcome__unit .box h2, .welcome_top .mainTop__wrapper h1 {
   font-family: "Poppins", sans-serif;
   text-align: center;
   line-height: 50px;
 }
 
-.news .titleTop, .video .video_wrapper span, .review span, .reservation .unit .box1 span, .events .titleTop, .menu span, .wrapper .pato .txt span, .welcome__unit .box span, .mainTop__wrapper span {
+.news .titleTop, .video .video_wrapper span, .review span, .reservation .unit .box1 span, .events .titleTop, .menu span, .wrapper .pato .txt span, .welcome__unit .box span, .welcome_top .mainTop__wrapper span {
   font-family: "Courgette", cursive;
   display: block;
   text-align: center;
@@ -63,13 +63,13 @@ body {
   color: #333;
 }
 
-.news h2, .video .video_wrapper h2, .review h2, .reservation .unit .box1 h2, .events__wrapper .typog .timer__items .timer__item, .events h2, .menu h2, .wrapper .pato .txt h2, .welcome__unit .box h2, .mainTop__wrapper h1 {
+.news h2, .video .video_wrapper h2, .review h2, .reservation .unit .box1 h2, .events__wrapper .typog .timer__items .timer__item, .events h2, .menu h2, .wrapper .pato .txt h2, .welcome__unit .box h2, .welcome_top .mainTop__wrapper h1 {
   font-family: "Poppins", sans-serif;
   text-align: center;
   line-height: 50px;
 }
 
-.news .titleTop, .video .video_wrapper span, .review span, .reservation .unit .box1 span, .events .titleTop, .menu span, .wrapper .pato .txt span, .welcome__unit .box span, .mainTop__wrapper span {
+.news .titleTop, .video .video_wrapper span, .review span, .reservation .unit .box1 span, .events .titleTop, .menu span, .wrapper .pato .txt span, .welcome__unit .box span, .welcome_top .mainTop__wrapper span {
   font-family: "Courgette", cursive;
   display: block;
   text-align: center;
@@ -116,8 +116,10 @@ nav .nav {
   height: 120px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
+  gap: 100px;
+  width: 100%;
 }
 nav .nav__logo {
   width: 110px;
@@ -166,6 +168,14 @@ nav .nav__socials button:hover {
   cursor: pointer;
 }
 
+@media (max-width: 1200px) {
+  nav .nav {
+    gap: 50px;
+  }
+  nav .nav__menu ul {
+    display: none;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -180,7 +190,7 @@ body {
 }
 
 .container {
-  width: 1170px;
+  max-width: 1170px;
   margin: 0 auto;
 }
 
@@ -189,13 +199,13 @@ body {
   flex-wrap: wrap;
 }
 
-.news h2, .video .video_wrapper h2, .review h2, .reservation .unit .box1 h2, .events__wrapper .typog .timer__items .timer__item, .events h2, .menu h2, .wrapper .pato .txt h2, .welcome__unit .box h2, .mainTop__wrapper h1 {
+.news h2, .video .video_wrapper h2, .review h2, .reservation .unit .box1 h2, .events__wrapper .typog .timer__items .timer__item, .events h2, .menu h2, .wrapper .pato .txt h2, .welcome__unit .box h2, .welcome_top .mainTop__wrapper h1 {
   font-family: "Poppins", sans-serif;
   text-align: center;
   line-height: 50px;
 }
 
-.news .titleTop, .video .video_wrapper span, .review span, .reservation .unit .box1 span, .events .titleTop, .menu span, .wrapper .pato .txt span, .welcome__unit .box span, .mainTop__wrapper span {
+.news .titleTop, .video .video_wrapper span, .review span, .reservation .unit .box1 span, .events .titleTop, .menu span, .wrapper .pato .txt span, .welcome__unit .box span, .welcome_top .mainTop__wrapper span {
   font-family: "Courgette", cursive;
   display: block;
   text-align: center;
@@ -231,13 +241,13 @@ body {
   color: #333;
 }
 
-.news h2, .video .video_wrapper h2, .review h2, .reservation .unit .box1 h2, .events__wrapper .typog .timer__items .timer__item, .events h2, .menu h2, .wrapper .pato .txt h2, .welcome__unit .box h2, .mainTop__wrapper h1 {
+.news h2, .video .video_wrapper h2, .review h2, .reservation .unit .box1 h2, .events__wrapper .typog .timer__items .timer__item, .events h2, .menu h2, .wrapper .pato .txt h2, .welcome__unit .box h2, .welcome_top .mainTop__wrapper h1 {
   font-family: "Poppins", sans-serif;
   text-align: center;
   line-height: 50px;
 }
 
-.news .titleTop, .video .video_wrapper span, .review span, .reservation .unit .box1 span, .events .titleTop, .menu span, .wrapper .pato .txt span, .welcome__unit .box span, .mainTop__wrapper span {
+.news .titleTop, .video .video_wrapper span, .review span, .reservation .unit .box1 span, .events .titleTop, .menu span, .wrapper .pato .txt span, .welcome__unit .box span, .welcome_top .mainTop__wrapper span {
   font-family: "Courgette", cursive;
   display: block;
   text-align: center;
@@ -271,10 +281,6 @@ body {
 .news__unit .card .descr a i, .events__wrapper .typog a i, .advantages__unit .card .descr a i, .welcome__unit .box a i {
   transition: 0.4s;
   color: #333;
-}
-
-html {
-  background-color: #d61c22;
 }
 
 body {
@@ -282,34 +288,57 @@ body {
   overflow-x: hidden;
 }
 
-.mainTop {
+.welcome_top {
   margin-top: -115px;
-  height: 100vh;
-  background: url("https://preview.colorlib.com/theme/pato/images/master-slides-02.jpg.webp");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
-.mainTop__wrapper {
+.welcome_top .arrow_out {
+  min-width: 60px;
+  height: 60px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 50%;
+  opacity: 0.5;
+  transition: 0.4s;
+}
+.welcome_top .arrow_out:hover {
+  background-color: #d61c22;
+  opacity: 0.5;
+  transition: 0.4s;
+}
+.welcome_top .arrow_out_left {
+  margin-left: 100px;
+}
+.welcome_top .arrow_out_right {
+  margin-right: 100px;
+}
+.welcome_top .mainTop {
+  height: 100vh;
+}
+.welcome_top .mainTop__wrapper {
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.mainTop__wrapper span {
+.welcome_top .mainTop__wrapper span {
   color: white;
   font-size: 60px;
   margin-bottom: 15px;
+  transition: 0.3s;
 }
-.mainTop__wrapper h1 {
+.welcome_top .mainTop__wrapper h1 {
   color: white;
   font-size: 90px;
   letter-spacing: 10px;
   line-height: 80px;
   margin-bottom: 37px;
+  transition: 0.3s;
 }
-.mainTop__wrapper button {
+.welcome_top .mainTop__wrapper button {
   font-size: 12px;
   font-family: "Montserrat", sans-serif;
   background-color: white;
@@ -321,10 +350,28 @@ body {
   transition: 0.5s;
   margin-bottom: 20px;
 }
-.mainTop__wrapper button:hover {
+.welcome_top .mainTop__wrapper button:hover {
   background-color: #d61c22;
   color: white;
   cursor: pointer;
+}
+.welcome_top .mainTop1 {
+  background: url("https://preview.colorlib.com/theme/pato/images/master-slides-01.jpg.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.welcome_top .mainTop2 {
+  background: url("https://preview.colorlib.com/theme/pato/images/master-slides-02.jpg.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.welcome_top .mainTop3 {
+  background: url("https://preview.colorlib.com/theme/pato/images/master-slides-03.jpg.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .welcome {
@@ -334,6 +381,7 @@ body {
   padding-bottom: 105px;
 }
 .welcome__unit {
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -426,7 +474,6 @@ body {
 }
 
 .advantages {
-  height: 628px;
   padding-top: 77px;
   padding-bottom: 133px;
   width: 100%;
@@ -497,9 +544,10 @@ body {
   font-weight: 800;
 }
 .menu .parent {
+  max-width: 1170px;
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(6, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(6, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(6, 1fr));
   gap: 25px;
 }
 .menu .parent img {
@@ -739,6 +787,8 @@ body {
 .events {
   width: 100%;
   padding: 115px 0 208px;
+  padding-right: 20px;
+  padding-left: 50px;
   background: url("https://preview.colorlib.com/theme/pato/images/bg-event-01.jpg.webp");
   background-position: center;
   background-repeat: no-repeat;
@@ -778,7 +828,7 @@ body {
   left: 0;
   transform: translate(-50%, -50%) rotateZ(90deg);
   background-color: #d61c22;
-  color: white;
+  color: rgb(50, 47, 47);
   font-size: 12px;
   display: flex;
   flex-direction: row;
@@ -788,7 +838,6 @@ body {
 }
 .events__wrapper .typog {
   width: 585px;
-  height: 390px;
   background-color: white;
   padding: 45px 40px 30px;
 }
@@ -965,7 +1014,6 @@ body {
   line-height: 1.2;
 }
 .review .paragraph {
-  width: 890px;
   margin: 0 auto;
   text-align: center;
   color: #666;
@@ -1123,6 +1171,7 @@ body {
 }
 .news__unit .card .descr {
   padding-top: 30px;
+  text-align: start;
 }
 .news__unit .card .descr h3 {
   color: #333;
@@ -1140,7 +1189,7 @@ body {
   line-height: 1.7;
 }
 .news__unit .card .descr a {
-  text-align: start;
+  display: inline-block;
 }
 
 .specialsSignUp {
@@ -1189,6 +1238,147 @@ body {
   color: white;
 }
 
+@media (max-width: 1200px) {
+  .welcome__unit {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .welcome__unit .box {
+    width: 400px;
+  }
+  .advantages__unit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu {
+    display: none;
+  }
+  .reservation {
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+  .reservation .unit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .news__unit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 1024px) {
+  .mainTop__wrapper h1 {
+    font-size: 60px !important;
+  }
+  .mainTop__wrapper span {
+    font-size: 40px !important;
+    margin-bottom: -10px;
+  }
+  .events__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .events__wrapper .img {
+    width: 72%;
+  }
+  .events__wrapper .typog {
+    width: 75%;
+    margin-left: -25px;
+  }
+  .events__wrapper .typog .timer {
+    margin-top: 20px;
+  }
+  .events__wrapper .typog .timer__items {
+    width: 100%;
+  }
+  .events__wrapper .typog .timer__items .timer__item {
+    font-size: 30px !important;
+  }
+  .events__wrapper .typog .timer__periods span {
+    margin-top: -2px !important;
+    font-size: 10px !important;
+  }
+  .specialsSignUp form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .reservation .unit .box1 {
+    width: 100%;
+  }
+  .reservation .unit .box1 form {
+    width: 80%;
+    margin-left: 50px;
+  }
+  .reservation .unit .box1 form .form_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .reservation .unit .box2 {
+    width: 350px !important;
+  }
+  .reservation .unit .box2 .img {
+    width: 100% !important;
+  }
+  .welcome__unit .box-img {
+    width: 350px !important;
+  }
+  .welcome__unit .box-img div {
+    width: 100% !important;
+  }
+}
+@media (max-width: 576px) {
+  .welcome_top .arrow_out {
+    min-width: 30px;
+    height: 30px;
+  }
+  .welcome_top .mainTop {
+    height: 600px;
+  }
+  .welcome_top .mainTop__wrapper {
+    height: 600px;
+  }
+  .welcome_top .mainTop__wrapper h1 {
+    width: 300px;
+  }
+  .advantages__unit .card {
+    max-width: 320px;
+  }
+  .advantages__unit .card .img {
+    width: 100%;
+  }
+  .events__wrapper .img div {
+    display: none;
+  }
+  .events .typog {
+    margin: 0;
+    padding-top: 30px;
+  }
+  .events .typog h4 {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  .events .typog .timer__items .timer__item {
+    font-size: 25px !important;
+  }
+  .events .typog .timer__periods span {
+    font-size: 8px !important;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -1203,7 +1393,7 @@ body {
 }
 
 .container {
-  width: 1170px;
+  max-width: 1170px;
   margin: 0 auto;
 }
 
@@ -1212,13 +1402,13 @@ body {
   flex-wrap: wrap;
 }
 
-.mainTop__wrapper h1, .welcome__unit .box h2, .wrapper .pato .txt h2, .menu h2, .events h2, .events__wrapper .typog .timer__items .timer__item, .reservation .unit .box1 h2, .review h2, .video .video_wrapper h2, .news h2 {
+.welcome_top .mainTop__wrapper h1, .welcome__unit .box h2, .wrapper .pato .txt h2, .menu h2, .events h2, .events__wrapper .typog .timer__items .timer__item, .reservation .unit .box1 h2, .review h2, .video .video_wrapper h2, .news h2 {
   font-family: "Poppins", sans-serif;
   text-align: center;
   line-height: 50px;
 }
 
-.mainTop__wrapper span, .welcome__unit .box span, .wrapper .pato .txt span, .menu span, .events .titleTop, .reservation .unit .box1 span, .review span, .video .video_wrapper span, .news .titleTop {
+.welcome_top .mainTop__wrapper span, .welcome__unit .box span, .wrapper .pato .txt span, .menu span, .events .titleTop, .reservation .unit .box1 span, .review span, .video .video_wrapper span, .news .titleTop {
   font-family: "Courgette", cursive;
   display: block;
   text-align: center;
@@ -1254,13 +1444,13 @@ body {
   color: #333;
 }
 
-.mainTop__wrapper h1, .welcome__unit .box h2, .wrapper .pato .txt h2, .menu h2, .events h2, .events__wrapper .typog .timer__items .timer__item, .reservation .unit .box1 h2, .review h2, .video .video_wrapper h2, .news h2 {
+.welcome_top .mainTop__wrapper h1, .welcome__unit .box h2, .wrapper .pato .txt h2, .menu h2, .events h2, .events__wrapper .typog .timer__items .timer__item, .reservation .unit .box1 h2, .review h2, .video .video_wrapper h2, .news h2 {
   font-family: "Poppins", sans-serif;
   text-align: center;
   line-height: 50px;
 }
 
-.mainTop__wrapper span, .welcome__unit .box span, .wrapper .pato .txt span, .menu span, .events .titleTop, .reservation .unit .box1 span, .review span, .video .video_wrapper span, .news .titleTop {
+.welcome_top .mainTop__wrapper span, .welcome__unit .box span, .wrapper .pato .txt span, .menu span, .events .titleTop, .reservation .unit .box1 span, .review span, .video .video_wrapper span, .news .titleTop {
   font-family: "Courgette", cursive;
   display: block;
   text-align: center;
@@ -1489,4 +1679,26 @@ footer .wrapper .card .div12 img {
 }
 .footer_bottom .unit p span:hover {
   color: #d61c22;
+}
+
+@media (max-width: 1200px) {
+  footer .wrapper .card ul {
+    width: 270px;
+  }
+}
+@media (max-width: 576px) {
+  footer .wrapper .card {
+    width: 320px;
+  }
+  footer .wrapper .card .parent {
+    display: none;
+  }
+}
+@media (max-width: 924px) {
+  footer .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
 }/*# sourceMappingURL=main.css.map */

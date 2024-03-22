@@ -12,6 +12,12 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
+    <!-- ! ANIMATION CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- ! SLIDER CDN -->
+    <link href="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+" rel="stylesheet">
     <!-- ! MAIN CSS -->
     <link rel="stylesheet" href="css/main.css">
     <!-- ! font awasome  -->
@@ -51,12 +57,55 @@
         </nav>
     </header>
     <main>
-        <div class="mainTop">
-            <div class="container mainTop__wrapper">
-                <span>Welcome to</span>
-                <h1>Pato Place</h1>
-                <button>Look Menu</button>
-            </div>
+        <div class="welcome_top">
+            <section id="topSlider" class="splide" aria-label="Splide Basic HTML Example">
+                <!-- ? SLIDER ARROWS -->
+                <div class="splide__arrows">
+                    <button class="splide__arrow splide__arrow--prev arrow_out">
+                        <i class="fa-solid fa-angle-left"></i>
+                    </button>
+                    <button class="splide__arrow splide__arrow--next arrow_out">
+                        <i class="fa-solid fa-angle-right"></i>
+                    </button>
+                </div>
+                <!-- ? END ARROWA -->
+
+                <!-- ? SLIDER PAGINATION -->
+                <ul class="splide__pagination" style="display: flex; gap: 10px; bottom: 40px"></ul>
+                <!-- ? END PAGINATION -->
+
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide">
+                            <div class="mainTop mainTop1">
+                                <div class="mainTop__wrapper">
+                                    <span>Welcome to</span>
+                                    <h1 class="animate__animated">Pato Place</h1>
+                                    <button>Look Menu</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="mainTop mainTop2">
+                                <div class="mainTop__wrapper">
+                                    <span>Welcome to</span>
+                                    <h1>Pato Place</h1>
+                                    <button>Look Menu</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="mainTop mainTop3">
+                                <div class="mainTop__wrapper">
+                                    <span>Welcome to</span>
+                                    <h1>Pato Place</h1>
+                                    <button>Look Menu</button>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
         </div>
         <div class="welcome">
             <div class="container">
@@ -130,7 +179,6 @@
                 <h2>OUR MENU</h2>
                 <div class="parent">
                     <div class="div1">
-
                         <img src="https://preview.colorlib.com/theme/pato/images/our-menu-01.jpg.webp" alt="">
                         <button>DRINK</button>
                     </div>
@@ -447,6 +495,12 @@
             </div>
         </div>
     </footer>
+
+
+    <script src="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+"></script>
+    <script src="slider.js"></script>
     <script src="main.js"></script>
 </body>
 

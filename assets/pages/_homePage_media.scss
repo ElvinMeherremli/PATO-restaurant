@@ -1,0 +1,178 @@
+@import "../components/media_breakpoints";
+@import "../utils/variables";
+
+@include desktop () {
+    .welcome {
+        &__unit {
+            width: 100%;
+            @include flex(flex, column, center, center);
+
+            .box {
+                width: 400px;
+            }
+        }
+    }
+
+    .advantages {
+        &__unit {
+            @include flex(flex, column, center, center);
+        }
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .reservation {
+        padding-top: 60px;
+        padding-bottom: 40px;
+
+        .unit {
+            @include flex (flex, column, center, center);
+        }
+    }
+    .news {
+        &__unit {
+            @include flex(flex, column, center, center);
+        }
+    }
+}
+
+@include laptop () {
+    .mainTop {
+        &__wrapper {
+            h1 {
+                font-size: 60px !important;
+            }
+            span {
+                font-size: 40px !important;
+                margin-bottom: -10px;
+            }
+        }
+    }
+
+    .events {
+        &__wrapper {
+            @include flex(flex, column, center, center);
+            .img {
+                width: 72%;
+            }
+            
+            .typog {
+                width: 75%;
+                margin-left: -25px;
+                .timer {
+                    margin-top: 20px;
+                    &__items {
+                        width: 100%;
+                        .timer__item {
+                            font-size: 30px !important;
+                        }
+                        
+                    }
+                    &__periods {
+                        span {
+                            margin-top: -2px !important;
+                            font-size: 10px !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .specialsSignUp {
+        form {
+            @include flex(flex, column, center, center);
+        }
+    }
+    .reservation {
+        .unit {
+            .box1 {
+                width: 100%;
+                form {
+                    width: 80%;
+                    margin-left: 50px;
+                    .form_wrapper {
+                        @include flex(flex, column, space-between, center);
+                    }
+                }
+            }
+            .box2 {
+                width: 350px !important;
+                .img {
+                    width: 100% !important;
+                }
+            }
+        }
+    }
+
+    .welcome {
+        &__unit {
+            .box-img {
+                width: 350px !important;
+                div {
+                    width: 100% !important;
+                }
+            }
+        }
+    }
+}
+
+@include mobile () {
+    .welcome_top {
+        .arrow_out {
+            min-width: 30px;
+            height: 30px;
+        }
+        .mainTop {
+            height: 600px;
+            &__wrapper {
+                height: 600px;
+                h1 {
+                    width: 300px;
+                }
+            } 
+        }
+    }
+
+    .advantages {
+        &__unit {
+            .card {
+                max-width: 320px;
+                .img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .events {
+        &__wrapper {
+            .img {
+                div {
+                    display: none;
+                }
+            }
+        }
+        .typog {
+            margin: 0;
+            padding-top: 30px;
+            h4 {
+                margin: 0;
+                margin-bottom: 10px;
+            }
+            .timer {
+                &__items {
+                    .timer__item {
+                        font-size: 25px !important;
+                    }
+                }
+                &__periods {
+                    span {
+                        font-size: 8px !important;
+                    }
+                }
+            }
+        }
+    }
+}
