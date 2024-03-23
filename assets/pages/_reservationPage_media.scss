@@ -1,0 +1,72 @@
+@import "../components/media_breakpoints";
+@import "../utils/variables";
+
+@include desktop () {
+    .book_table {
+        .unit {
+            .card {
+                @include flex (flex, column, flex-start, center );
+                p {
+                    width: 300px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 970px) {
+    .book_table {
+        form {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            .row {
+                width: 300px;
+                height: 300px;
+                @include flex (flex, column, center, center);
+            }
+        }
+    }
+}
+
+@include tablet () {
+    .book_table {
+        .unit {
+            @include flex (flex, column, center, center);
+            margin-top: 60px;
+            gap: 30px;
+            .card {
+                p {
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+@include mobile () {
+    .reservation-mainTop {
+        h1 {
+            font-size: 30px;
+        }
+    }
+    .book_table {
+        h2 {
+            font-size: 30px;
+        }
+        .titleTop {
+            font-size: 25px;
+        } 
+        .unit {
+            .card {
+                h3 {
+                    font-size: 17px;
+                    text-align: center;
+                }
+                p {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
