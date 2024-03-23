@@ -1,0 +1,55 @@
+@import "../components/media_breakpoints";
+@import "../utils/variables";
+
+@media screen and (max-width: 500px) {
+    .image_gellery {
+        .grid-container {
+            padding: 0;
+            .grid-item {
+                width: 350px;
+                height: 250px;
+    
+                img {
+                    width: 350px;
+                    height: 250px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .image_gellery {
+        .grid-container {
+            padding: 0;
+            .grid-item {
+                margin: 0 auto;
+                width: 300px;
+                height: 200px;
+    
+                img {
+                    width: 300px;
+                    height: 200px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .image_gellery {
+        .grid-container {
+            padding: 0;
+            .grid-item {
+                margin-left: 44px;
+                width: 300px;
+                height: 200px;
+    
+                img {
+                    width: 300px;
+                    height: 200px;
+                }
+            }
+        }
+    }
+}
