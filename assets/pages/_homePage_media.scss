@@ -120,6 +120,13 @@
 }
 
 @include mobile () {
+    .welcome {
+        &__unit {
+            .box {
+                width: 370px;
+            }
+        }
+    }
     .welcome_top {
         .arrow_out {
             min-width: 30px;

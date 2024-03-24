@@ -1,0 +1,22 @@
+@import "../components/media_breakpoints";
+@import "../utils/variables";
+
+@media screen and (max-width: 900px) {
+    .chef {
+        .unit {
+            @include flex(flex, column, center, center);
+            gap: 100px;
+        }
+    }
+}
+
+@include mobile () {
+    .story {
+        h2 {
+            font-size: 40px;
+        }
+        span {
+            font-size: 25px;
+        }
+    }
+}

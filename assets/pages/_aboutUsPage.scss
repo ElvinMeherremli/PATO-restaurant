@@ -1,0 +1,311 @@
+@import "../base/reset";
+@import "../utils/variables";
+@import "../utils/mixins";
+@import "../utils/extends";
+
+
+.aboutUs-mainTop {
+    width: 100%;
+    height: 80vh;
+    margin-top: -115px;
+    @include flex (flex, row, center, center);
+    @include bg ('https://preview.colorlib.com/theme/pato/images/bg-title-page-03.jpg.webp');
+
+    h1 {
+        @include h2(white);
+        text-transform: uppercase;
+        line-height: 1.2;
+        letter-spacing: 6px;
+        word-spacing: 6px;
+        font-weight: 700;
+    }
+}
+
+.story {
+    padding: 116px 35px 110px;
+    background-color: #F1EEE8;
+    span {
+        @include span;
+    }
+    h2 {
+        @include h2;    
+        letter-spacing: 6px;
+        font-weight: 700;
+        margin-top: 5px;
+        margin-bottom: 35px;
+    }
+    p {
+        max-width: 868px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 1.7;
+        color: #666666;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+.about_video {
+    width: 100%;
+    height: 720px;
+    @include bg('https://preview.colorlib.com/theme/pato/images/header-menu-01.jpg.webp');
+    background-attachment: fixed;
+
+    .video_wrapper {
+        background: #0000006d;
+        height: 100%;
+        padding: 225px 0 230px;
+        width: 100%;
+
+        span {
+            @include span;
+        }
+
+        h2 {
+            margin-top: 5px;
+            @include h2(white);
+            word-spacing: 6px;
+            letter-spacing: 10px;
+            letter-spacing: 10px;
+        }
+
+        .circle {
+            margin: 0 auto;
+            margin-top: 43px;
+            width: 70px;
+            height: 70px;
+            background-color: white;
+            border-radius: 50%;
+            @include flex(flex, row, center, center);
+            transition: .4s;
+            cursor: pointer;
+
+            &:hover {
+                background-color: $red;
+                opacity: 0.7;
+                transform: scale(1.2);
+            }
+
+            &:hover i {
+                color: white;
+            }
+
+            i {
+                font-size: 16px;
+                color: black;
+                margin-left: 3px;
+                transition: .3s;
+            }
+        }
+    }
+}
+
+.recipes {
+    width: 100%;
+    background-color: #F1F1F1;
+    padding-top: 120px;
+    padding-bottom: 105px;
+
+    &__unit {
+        width: 100%;
+        @include flex(flex, row, center, center);
+        .box {
+            width: 600px;
+            height: 420px;
+            padding: 45px 15px 30px;
+
+            span {
+                @include span;
+            }
+
+            h2 {
+                @include h2;
+                margin: 5px 0 35px;
+            }
+
+            p {
+                margin: 0 28px 22px;
+                color: $gray;
+                text-align: center;
+                font-size: 15px;
+                line-height: 1.7;
+            }
+        }
+
+        .box-img {
+            width: 600px;
+            height: 420px;
+            padding: 0 15px 85px;
+            @include flex(flex, row, center, flex-start);
+
+            div {
+                width: 390px;
+                height: 390px;
+                overflow: hidden;
+                border-radius: 20px;
+
+                img {
+                    width: 390px;
+                    height: 390px;
+                    transition: .3s;
+
+                    &:hover {
+                        transform: scale(1.1);
+                    }
+                }
+            }
+        }
+    }
+}
+
+.rom_restaurant {
+    width: 100%;
+    background-color: #F1F1F1;
+    padding-top: 40px;
+    padding-bottom: 105px;
+
+    &__unit {
+        width: 100%;
+        @include flex(flex, row, center, center);
+        .box {
+            width: 600px;
+            height: 420px;
+            padding: 45px 15px 30px;
+
+            span {
+                @include span;
+            }
+
+            h2 {
+                @include h2;
+                margin: 5px 0 35px;
+            }
+
+            p {
+                margin: 0 28px 22px;
+                color: $gray;
+                text-align: center;
+                font-size: 15px;
+                line-height: 1.7;
+            }
+        }
+
+        .box-img {
+            width: 600px;
+            height: 420px;
+            padding: 0 15px 85px;
+            @include flex(flex, row, center, flex-start);
+
+            div {
+                width: 390px;
+                height: 390px;
+                overflow: hidden;
+                border-radius: 20px;
+
+                img {
+                    width: 390px;
+                    height: 390px;
+                    transition: .3s;
+
+                    &:hover {
+                        transform: scale(1.1);
+                    }
+                }
+            }
+        }
+    }
+}
+
+.conversion {
+    width: 100%;
+    height: 616px;
+    @include bg('https://preview.colorlib.com/theme/pato/images/bg-cover-video-02.jpg.webp');
+    background-attachment: fixed;
+
+    .video_wrapper {
+        background-color: #0000007a;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.chef {
+    padding: 115px 15px 95px;
+    background-color: #FFFFFF;
+    .titleTop {
+        @include span;
+    }
+    h2 {
+        @include h2;
+        letter-spacing: 10px;
+        word-spacing: 8px;
+        margin: 5px 0 100px;
+    }
+    .unit {
+        width: 100%;
+        @include flex(flex, row, center, center);
+        gap: 30px;
+        .card {
+            max-width: 370px;
+            max-height: 320px;
+            border: 2px solid #e6e6e6;
+            border-radius: 10px;
+            text-align: center;
+            position: relative;
+            padding: 90px 35px 30px;
+            .circle {
+                top: -110px;
+                left: 50%;
+                transform: translateX(-50%);
+                position: absolute;
+                overflow: hidden;
+                margin: 0 auto;
+                margin-top: 50px;
+                width: 117px;
+                height: 117px;
+                border-radius: 50%;
+                border: 5px $red solid;
+                @include flex(flex, row, center, center);
+        
+                img {
+                    width: 109px;
+                    height: 109px;
+                    border-radius: 50%;
+                    transition: .3s;
+                    &:hover {
+                        transform: scale(1.1);
+                    }
+                }
+            }
+            h5 {
+                font-family: Poppins;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 1.4;
+                color: #333333;
+                letter-spacing: 2px;
+                transition: .3s;
+                cursor: pointer;
+                margin-bottom: 6px;
+                &:hover {
+                    color: $red;
+                }
+            }
+            span {
+                font-size: 12px;
+                color: #666666;
+                text-transform: uppercase;
+                line-height: 1.8;
+            }
+            p {
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 1.7;
+                color: #666666;
+                margin-top: 25px;
+                margin-bottom: 30px;
+            }
+        }
+    }
+}
+

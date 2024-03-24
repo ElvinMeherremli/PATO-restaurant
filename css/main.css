@@ -21,13 +21,13 @@ body {
   flex-wrap: wrap;
 }
 
-.book_table h2, .reservation-mainTop h1, .lunch_jump .wrapper h2, .dinner_jump .wrapper h2, .menu-mainTop h1, .news h2, .video .video_wrapper h2, .review h2, .reservation .unit .box1 h2, .events__wrapper .typog .timer__items .timer__item, .events h2, .menu h2, .wrapper .pato .txt h2, .welcome__unit .box h2, .welcome_top .mainTop__wrapper h1 {
+.chef h2, .rom_restaurant__unit .box h2, .recipes__unit .box h2, .about_video .video_wrapper h2, .story h2, .aboutUs-mainTop h1, .book_table h2, .reservation-mainTop h1, .lunch_jump .wrapper h2, .dinner_jump .wrapper h2, .menu-mainTop h1, .news h2, .video .video_wrapper h2, .review h2, .reservation .unit .box1 h2, .events__wrapper .typog .timer__items .timer__item, .events h2, .menu h2, .wrapper .pato .txt h2, .welcome__unit .box h2, .welcome_top .mainTop__wrapper h1 {
   font-family: "Poppins", sans-serif;
   text-align: center;
   line-height: 50px;
 }
 
-.book_table .titleTop, .news .titleTop, .video .video_wrapper span, .review span, .reservation .unit .box1 span, .events .titleTop, .menu span, .wrapper .pato .txt span, .welcome__unit .box span, .welcome_top .mainTop__wrapper span {
+.chef .titleTop, .rom_restaurant__unit .box span, .recipes__unit .box span, .about_video .video_wrapper span, .story span, .book_table .titleTop, .news .titleTop, .video .video_wrapper span, .review span, .reservation .unit .box1 span, .events .titleTop, .menu span, .wrapper .pato .txt span, .welcome__unit .box span, .welcome_top .mainTop__wrapper span {
   font-family: "Courgette", cursive;
   display: block;
   text-align: center;
@@ -73,13 +73,13 @@ body {
   letter-spacing: 3px;
 }
 
-.book_table h2, .reservation-mainTop h1, .lunch_jump .wrapper h2, .dinner_jump .wrapper h2, .menu-mainTop h1, .news h2, .video .video_wrapper h2, .review h2, .reservation .unit .box1 h2, .events__wrapper .typog .timer__items .timer__item, .events h2, .menu h2, .wrapper .pato .txt h2, .welcome__unit .box h2, .welcome_top .mainTop__wrapper h1 {
+.chef h2, .rom_restaurant__unit .box h2, .recipes__unit .box h2, .about_video .video_wrapper h2, .story h2, .aboutUs-mainTop h1, .book_table h2, .reservation-mainTop h1, .lunch_jump .wrapper h2, .dinner_jump .wrapper h2, .menu-mainTop h1, .news h2, .video .video_wrapper h2, .review h2, .reservation .unit .box1 h2, .events__wrapper .typog .timer__items .timer__item, .events h2, .menu h2, .wrapper .pato .txt h2, .welcome__unit .box h2, .welcome_top .mainTop__wrapper h1 {
   font-family: "Poppins", sans-serif;
   text-align: center;
   line-height: 50px;
 }
 
-.book_table .titleTop, .news .titleTop, .video .video_wrapper span, .review span, .reservation .unit .box1 span, .events .titleTop, .menu span, .wrapper .pato .txt span, .welcome__unit .box span, .welcome_top .mainTop__wrapper span {
+.chef .titleTop, .rom_restaurant__unit .box span, .recipes__unit .box span, .about_video .video_wrapper span, .story span, .book_table .titleTop, .news .titleTop, .video .video_wrapper span, .review span, .reservation .unit .box1 span, .events .titleTop, .menu span, .wrapper .pato .txt span, .welcome__unit .box span, .welcome_top .mainTop__wrapper span {
   font-family: "Courgette", cursive;
   display: block;
   text-align: center;
@@ -196,6 +196,11 @@ nav .nav__socials button:hover {
     display: none;
   }
 }
+@media (max-width: 576px) {
+  nav .nav {
+    padding: 0 25px 0 15px;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -219,13 +224,13 @@ body {
   flex-wrap: wrap;
 }
 
-.book_table h2, .reservation-mainTop h1, .lunch_jump .wrapper h2, .dinner_jump .wrapper h2, .menu-mainTop h1, .news h2, .video .video_wrapper h2, .review h2, .reservation .unit .box1 h2, .events__wrapper .typog .timer__items .timer__item, .events h2, .menu h2, .wrapper .pato .txt h2, .welcome__unit .box h2, .welcome_top .mainTop__wrapper h1 {
+.chef h2, .rom_restaurant__unit .box h2, .recipes__unit .box h2, .about_video .video_wrapper h2, .story h2, .aboutUs-mainTop h1, .book_table h2, .reservation-mainTop h1, .lunch_jump .wrapper h2, .dinner_jump .wrapper h2, .menu-mainTop h1, .news h2, .video .video_wrapper h2, .review h2, .reservation .unit .box1 h2, .events__wrapper .typog .timer__items .timer__item, .events h2, .menu h2, .wrapper .pato .txt h2, .welcome__unit .box h2, .welcome_top .mainTop__wrapper h1 {
   font-family: "Poppins", sans-serif;
   text-align: center;
   line-height: 50px;
 }
 
-.book_table .titleTop, .news .titleTop, .video .video_wrapper span, .review span, .reservation .unit .box1 span, .events .titleTop, .menu span, .wrapper .pato .txt span, .welcome__unit .box span, .welcome_top .mainTop__wrapper span {
+.chef .titleTop, .rom_restaurant__unit .box span, .recipes__unit .box span, .about_video .video_wrapper span, .story span, .book_table .titleTop, .news .titleTop, .video .video_wrapper span, .review span, .reservation .unit .box1 span, .events .titleTop, .menu span, .wrapper .pato .txt span, .welcome__unit .box span, .welcome_top .mainTop__wrapper span {
   font-family: "Courgette", cursive;
   display: block;
   text-align: center;
@@ -271,13 +276,13 @@ body {
   letter-spacing: 3px;
 }
 
-.book_table h2, .reservation-mainTop h1, .lunch_jump .wrapper h2, .dinner_jump .wrapper h2, .menu-mainTop h1, .news h2, .video .video_wrapper h2, .review h2, .reservation .unit .box1 h2, .events__wrapper .typog .timer__items .timer__item, .events h2, .menu h2, .wrapper .pato .txt h2, .welcome__unit .box h2, .welcome_top .mainTop__wrapper h1 {
+.chef h2, .rom_restaurant__unit .box h2, .recipes__unit .box h2, .about_video .video_wrapper h2, .story h2, .aboutUs-mainTop h1, .book_table h2, .reservation-mainTop h1, .lunch_jump .wrapper h2, .dinner_jump .wrapper h2, .menu-mainTop h1, .news h2, .video .video_wrapper h2, .review h2, .reservation .unit .box1 h2, .events__wrapper .typog .timer__items .timer__item, .events h2, .menu h2, .wrapper .pato .txt h2, .welcome__unit .box h2, .welcome_top .mainTop__wrapper h1 {
   font-family: "Poppins", sans-serif;
   text-align: center;
   line-height: 50px;
 }
 
-.book_table .titleTop, .news .titleTop, .video .video_wrapper span, .review span, .reservation .unit .box1 span, .events .titleTop, .menu span, .wrapper .pato .txt span, .welcome__unit .box span, .welcome_top .mainTop__wrapper span {
+.chef .titleTop, .rom_restaurant__unit .box span, .recipes__unit .box span, .about_video .video_wrapper span, .story span, .book_table .titleTop, .news .titleTop, .video .video_wrapper span, .review span, .reservation .unit .box1 span, .events .titleTop, .menu span, .wrapper .pato .txt span, .welcome__unit .box span, .welcome_top .mainTop__wrapper span {
   font-family: "Courgette", cursive;
   display: block;
   text-align: center;
@@ -1382,6 +1387,9 @@ body {
   }
 }
 @media (max-width: 576px) {
+  .welcome__unit .box {
+    width: 370px;
+  }
   .welcome_top .arrow_out {
     min-width: 30px;
     height: 30px;
@@ -1442,13 +1450,13 @@ body {
   flex-wrap: wrap;
 }
 
-.book_table h2, .reservation-mainTop h1, .lunch_jump .wrapper h2, .dinner_jump .wrapper h2, .menu-mainTop h1, .welcome_top .mainTop__wrapper h1, .welcome__unit .box h2, .wrapper .pato .txt h2, .menu h2, .events h2, .events__wrapper .typog .timer__items .timer__item, .reservation .unit .box1 h2, .review h2, .video .video_wrapper h2, .news h2 {
+.chef h2, .rom_restaurant__unit .box h2, .recipes__unit .box h2, .about_video .video_wrapper h2, .story h2, .aboutUs-mainTop h1, .book_table h2, .reservation-mainTop h1, .lunch_jump .wrapper h2, .dinner_jump .wrapper h2, .menu-mainTop h1, .welcome_top .mainTop__wrapper h1, .welcome__unit .box h2, .wrapper .pato .txt h2, .menu h2, .events h2, .events__wrapper .typog .timer__items .timer__item, .reservation .unit .box1 h2, .review h2, .video .video_wrapper h2, .news h2 {
   font-family: "Poppins", sans-serif;
   text-align: center;
   line-height: 50px;
 }
 
-.book_table .titleTop, .welcome_top .mainTop__wrapper span, .welcome__unit .box span, .wrapper .pato .txt span, .menu span, .events .titleTop, .reservation .unit .box1 span, .review span, .video .video_wrapper span, .news .titleTop {
+.chef .titleTop, .rom_restaurant__unit .box span, .recipes__unit .box span, .about_video .video_wrapper span, .story span, .book_table .titleTop, .welcome_top .mainTop__wrapper span, .welcome__unit .box span, .wrapper .pato .txt span, .menu span, .events .titleTop, .reservation .unit .box1 span, .review span, .video .video_wrapper span, .news .titleTop {
   font-family: "Courgette", cursive;
   display: block;
   text-align: center;
@@ -1494,13 +1502,13 @@ body {
   letter-spacing: 3px;
 }
 
-.book_table h2, .reservation-mainTop h1, .lunch_jump .wrapper h2, .dinner_jump .wrapper h2, .menu-mainTop h1, .welcome_top .mainTop__wrapper h1, .welcome__unit .box h2, .wrapper .pato .txt h2, .menu h2, .events h2, .events__wrapper .typog .timer__items .timer__item, .reservation .unit .box1 h2, .review h2, .video .video_wrapper h2, .news h2 {
+.chef h2, .rom_restaurant__unit .box h2, .recipes__unit .box h2, .about_video .video_wrapper h2, .story h2, .aboutUs-mainTop h1, .book_table h2, .reservation-mainTop h1, .lunch_jump .wrapper h2, .dinner_jump .wrapper h2, .menu-mainTop h1, .welcome_top .mainTop__wrapper h1, .welcome__unit .box h2, .wrapper .pato .txt h2, .menu h2, .events h2, .events__wrapper .typog .timer__items .timer__item, .reservation .unit .box1 h2, .review h2, .video .video_wrapper h2, .news h2 {
   font-family: "Poppins", sans-serif;
   text-align: center;
   line-height: 50px;
 }
 
-.book_table .titleTop, .welcome_top .mainTop__wrapper span, .welcome__unit .box span, .wrapper .pato .txt span, .menu span, .events .titleTop, .reservation .unit .box1 span, .review span, .video .video_wrapper span, .news .titleTop {
+.chef .titleTop, .rom_restaurant__unit .box span, .recipes__unit .box span, .about_video .video_wrapper span, .story span, .book_table .titleTop, .welcome_top .mainTop__wrapper span, .welcome__unit .box span, .wrapper .pato .txt span, .menu span, .events .titleTop, .reservation .unit .box1 span, .review span, .video .video_wrapper span, .news .titleTop {
   font-family: "Courgette", cursive;
   display: block;
   text-align: center;
@@ -1821,13 +1829,13 @@ body {
   flex-wrap: wrap;
 }
 
-.book_table h2, .reservation-mainTop h1, .welcome_top .mainTop__wrapper h1, .welcome__unit .box h2, .wrapper .pato .txt h2, .menu h2, .events h2, .events__wrapper .typog .timer__items .timer__item, .reservation .unit .box1 h2, .review h2, .video .video_wrapper h2, .news h2, .menu-mainTop h1, .lunch_jump .wrapper h2, .dinner_jump .wrapper h2 {
+.chef h2, .rom_restaurant__unit .box h2, .recipes__unit .box h2, .about_video .video_wrapper h2, .story h2, .aboutUs-mainTop h1, .book_table h2, .reservation-mainTop h1, .welcome_top .mainTop__wrapper h1, .welcome__unit .box h2, .wrapper .pato .txt h2, .menu h2, .events h2, .events__wrapper .typog .timer__items .timer__item, .reservation .unit .box1 h2, .review h2, .video .video_wrapper h2, .news h2, .menu-mainTop h1, .lunch_jump .wrapper h2, .dinner_jump .wrapper h2 {
   font-family: "Poppins", sans-serif;
   text-align: center;
   line-height: 50px;
 }
 
-.book_table .titleTop, .welcome_top .mainTop__wrapper span, .welcome__unit .box span, .wrapper .pato .txt span, .menu span, .events .titleTop, .reservation .unit .box1 span, .review span, .video .video_wrapper span, .news .titleTop {
+.chef .titleTop, .rom_restaurant__unit .box span, .recipes__unit .box span, .about_video .video_wrapper span, .story span, .book_table .titleTop, .welcome_top .mainTop__wrapper span, .welcome__unit .box span, .wrapper .pato .txt span, .menu span, .events .titleTop, .reservation .unit .box1 span, .review span, .video .video_wrapper span, .news .titleTop {
   font-family: "Courgette", cursive;
   display: block;
   text-align: center;
@@ -1873,13 +1881,13 @@ body {
   letter-spacing: 3px;
 }
 
-.book_table h2, .reservation-mainTop h1, .welcome_top .mainTop__wrapper h1, .welcome__unit .box h2, .wrapper .pato .txt h2, .menu h2, .events h2, .events__wrapper .typog .timer__items .timer__item, .reservation .unit .box1 h2, .review h2, .video .video_wrapper h2, .news h2, .menu-mainTop h1, .lunch_jump .wrapper h2, .dinner_jump .wrapper h2 {
+.chef h2, .rom_restaurant__unit .box h2, .recipes__unit .box h2, .about_video .video_wrapper h2, .story h2, .aboutUs-mainTop h1, .book_table h2, .reservation-mainTop h1, .welcome_top .mainTop__wrapper h1, .welcome__unit .box h2, .wrapper .pato .txt h2, .menu h2, .events h2, .events__wrapper .typog .timer__items .timer__item, .reservation .unit .box1 h2, .review h2, .video .video_wrapper h2, .news h2, .menu-mainTop h1, .lunch_jump .wrapper h2, .dinner_jump .wrapper h2 {
   font-family: "Poppins", sans-serif;
   text-align: center;
   line-height: 50px;
 }
 
-.book_table .titleTop, .welcome_top .mainTop__wrapper span, .welcome__unit .box span, .wrapper .pato .txt span, .menu span, .events .titleTop, .reservation .unit .box1 span, .review span, .video .video_wrapper span, .news .titleTop {
+.chef .titleTop, .rom_restaurant__unit .box span, .recipes__unit .box span, .about_video .video_wrapper span, .story span, .book_table .titleTop, .welcome_top .mainTop__wrapper span, .welcome__unit .box span, .wrapper .pato .txt span, .menu span, .events .titleTop, .reservation .unit .box1 span, .review span, .video .video_wrapper span, .news .titleTop {
   font-family: "Courgette", cursive;
   display: block;
   text-align: center;
@@ -2141,13 +2149,13 @@ body {
   flex-wrap: wrap;
 }
 
-.welcome_top .mainTop__wrapper h1, .welcome__unit .box h2, .wrapper .pato .txt h2, .menu h2, .events h2, .events__wrapper .typog .timer__items .timer__item, .reservation .unit .box1 h2, .review h2, .video .video_wrapper h2, .news h2, .menu-mainTop h1, .lunch_jump .wrapper h2, .dinner_jump .wrapper h2, .reservation-mainTop h1, .book_table h2 {
+.chef h2, .rom_restaurant__unit .box h2, .recipes__unit .box h2, .about_video .video_wrapper h2, .story h2, .aboutUs-mainTop h1, .welcome_top .mainTop__wrapper h1, .welcome__unit .box h2, .wrapper .pato .txt h2, .menu h2, .events h2, .events__wrapper .typog .timer__items .timer__item, .reservation .unit .box1 h2, .review h2, .video .video_wrapper h2, .news h2, .menu-mainTop h1, .lunch_jump .wrapper h2, .dinner_jump .wrapper h2, .reservation-mainTop h1, .book_table h2 {
   font-family: "Poppins", sans-serif;
   text-align: center;
   line-height: 50px;
 }
 
-.welcome_top .mainTop__wrapper span, .welcome__unit .box span, .wrapper .pato .txt span, .menu span, .events .titleTop, .reservation .unit .box1 span, .review span, .video .video_wrapper span, .news .titleTop, .book_table .titleTop {
+.chef .titleTop, .rom_restaurant__unit .box span, .recipes__unit .box span, .about_video .video_wrapper span, .story span, .welcome_top .mainTop__wrapper span, .welcome__unit .box span, .wrapper .pato .txt span, .menu span, .events .titleTop, .reservation .unit .box1 span, .review span, .video .video_wrapper span, .news .titleTop, .book_table .titleTop {
   font-family: "Courgette", cursive;
   display: block;
   text-align: center;
@@ -2193,13 +2201,13 @@ body {
   letter-spacing: 3px;
 }
 
-.welcome_top .mainTop__wrapper h1, .welcome__unit .box h2, .wrapper .pato .txt h2, .menu h2, .events h2, .events__wrapper .typog .timer__items .timer__item, .reservation .unit .box1 h2, .review h2, .video .video_wrapper h2, .news h2, .menu-mainTop h1, .lunch_jump .wrapper h2, .dinner_jump .wrapper h2, .reservation-mainTop h1, .book_table h2 {
+.chef h2, .rom_restaurant__unit .box h2, .recipes__unit .box h2, .about_video .video_wrapper h2, .story h2, .aboutUs-mainTop h1, .welcome_top .mainTop__wrapper h1, .welcome__unit .box h2, .wrapper .pato .txt h2, .menu h2, .events h2, .events__wrapper .typog .timer__items .timer__item, .reservation .unit .box1 h2, .review h2, .video .video_wrapper h2, .news h2, .menu-mainTop h1, .lunch_jump .wrapper h2, .dinner_jump .wrapper h2, .reservation-mainTop h1, .book_table h2 {
   font-family: "Poppins", sans-serif;
   text-align: center;
   line-height: 50px;
 }
 
-.welcome_top .mainTop__wrapper span, .welcome__unit .box span, .wrapper .pato .txt span, .menu span, .events .titleTop, .reservation .unit .box1 span, .review span, .video .video_wrapper span, .news .titleTop, .book_table .titleTop {
+.chef .titleTop, .rom_restaurant__unit .box span, .recipes__unit .box span, .about_video .video_wrapper span, .story span, .welcome_top .mainTop__wrapper span, .welcome__unit .box span, .wrapper .pato .txt span, .menu span, .events .titleTop, .reservation .unit .box1 span, .review span, .video .video_wrapper span, .news .titleTop, .book_table .titleTop {
   font-family: "Courgette", cursive;
   display: block;
   text-align: center;
@@ -2442,13 +2450,13 @@ body {
   flex-wrap: wrap;
 }
 
-.welcome_top .mainTop__wrapper h1, .welcome__unit .box h2, .wrapper .pato .txt h2, .menu h2, .events h2, .events__wrapper .typog .timer__items .timer__item, .reservation .unit .box1 h2, .review h2, .video .video_wrapper h2, .news h2, .menu-mainTop h1, .lunch_jump .wrapper h2, .dinner_jump .wrapper h2, .reservation-mainTop h1, .book_table h2 {
+.chef h2, .rom_restaurant__unit .box h2, .recipes__unit .box h2, .about_video .video_wrapper h2, .story h2, .aboutUs-mainTop h1, .welcome_top .mainTop__wrapper h1, .welcome__unit .box h2, .wrapper .pato .txt h2, .menu h2, .events h2, .events__wrapper .typog .timer__items .timer__item, .reservation .unit .box1 h2, .review h2, .video .video_wrapper h2, .news h2, .menu-mainTop h1, .lunch_jump .wrapper h2, .dinner_jump .wrapper h2, .reservation-mainTop h1, .book_table h2 {
   font-family: "Poppins", sans-serif;
   text-align: center;
   line-height: 50px;
 }
 
-.welcome_top .mainTop__wrapper span, .welcome__unit .box span, .wrapper .pato .txt span, .menu span, .events .titleTop, .reservation .unit .box1 span, .review span, .video .video_wrapper span, .news .titleTop, .book_table .titleTop {
+.chef .titleTop, .rom_restaurant__unit .box span, .recipes__unit .box span, .about_video .video_wrapper span, .story span, .welcome_top .mainTop__wrapper span, .welcome__unit .box span, .wrapper .pato .txt span, .menu span, .events .titleTop, .reservation .unit .box1 span, .review span, .video .video_wrapper span, .news .titleTop, .book_table .titleTop {
   font-family: "Courgette", cursive;
   display: block;
   text-align: center;
@@ -2494,13 +2502,480 @@ body {
   letter-spacing: 3px;
 }
 
-.welcome_top .mainTop__wrapper h1, .welcome__unit .box h2, .wrapper .pato .txt h2, .menu h2, .events h2, .events__wrapper .typog .timer__items .timer__item, .reservation .unit .box1 h2, .review h2, .video .video_wrapper h2, .news h2, .menu-mainTop h1, .lunch_jump .wrapper h2, .dinner_jump .wrapper h2, .reservation-mainTop h1, .book_table h2 {
+.chef h2, .rom_restaurant__unit .box h2, .recipes__unit .box h2, .about_video .video_wrapper h2, .story h2, .aboutUs-mainTop h1, .welcome_top .mainTop__wrapper h1, .welcome__unit .box h2, .wrapper .pato .txt h2, .menu h2, .events h2, .events__wrapper .typog .timer__items .timer__item, .reservation .unit .box1 h2, .review h2, .video .video_wrapper h2, .news h2, .menu-mainTop h1, .lunch_jump .wrapper h2, .dinner_jump .wrapper h2, .reservation-mainTop h1, .book_table h2 {
   font-family: "Poppins", sans-serif;
   text-align: center;
   line-height: 50px;
 }
 
-.welcome_top .mainTop__wrapper span, .welcome__unit .box span, .wrapper .pato .txt span, .menu span, .events .titleTop, .reservation .unit .box1 span, .review span, .video .video_wrapper span, .news .titleTop, .book_table .titleTop {
+.chef .titleTop, .rom_restaurant__unit .box span, .recipes__unit .box span, .about_video .video_wrapper span, .story span, .welcome_top .mainTop__wrapper span, .welcome__unit .box span, .wrapper .pato .txt span, .menu span, .events .titleTop, .reservation .unit .box1 span, .review span, .video .video_wrapper span, .news .titleTop, .book_table .titleTop {
+  font-family: "Courgette", cursive;
+  display: block;
+  text-align: center;
+}
+
+.reservation .unit .box1 form .form_wrapper .column input,
+.reservation .unit .box1 form .form_wrapper .column select, .specialsSignUp form input, .book_table form .row .box input {
+  border-radius: 10px;
+  padding-left: 20px;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 14px;
+  color: #666;
+}
+
+.welcome__unit .box a, .advantages__unit .card .descr a, .events__wrapper .typog a, .news__unit .card .descr a {
+  color: #222;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  display: block;
+  text-align: center;
+  transition: 0.4s;
+}
+.welcome__unit .box a:hover, .advantages__unit .card .descr a:hover, .events__wrapper .typog a:hover, .news__unit .card .descr a:hover {
+  color: #d61c22;
+}
+.welcome__unit .box a:hover i, .advantages__unit .card .descr a:hover i, .events__wrapper .typog a:hover i, .news__unit .card .descr a:hover i {
+  color: #d61c22;
+}
+.welcome__unit .box a i, .advantages__unit .card .descr a i, .events__wrapper .typog a i, .news__unit .card .descr a i {
+  transition: 0.4s;
+  color: #333;
+}
+
+.menu-main_menu .unit .card .wrapper .top_title {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.2;
+  color: #222222;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.aboutUs-mainTop {
+  width: 100%;
+  height: 80vh;
+  margin-top: -115px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: url("https://preview.colorlib.com/theme/pato/images/bg-title-page-03.jpg.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.aboutUs-mainTop h1 {
+  color: white;
+  font-size: 50px;
+  text-transform: uppercase;
+  line-height: 1.2;
+  letter-spacing: 6px;
+  word-spacing: 6px;
+  font-weight: 700;
+}
+
+.story {
+  padding: 116px 35px 110px;
+  background-color: #F1EEE8;
+}
+.story span {
+  color: #d61c22;
+  font-size: 30px;
+}
+.story h2 {
+  color: #222;
+  font-size: 50px;
+  letter-spacing: 6px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 35px;
+}
+.story p {
+  max-width: 868px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.7;
+  color: #666666;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about_video {
+  width: 100%;
+  height: 720px;
+  background: url("https://preview.colorlib.com/theme/pato/images/header-menu-01.jpg.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.about_video .video_wrapper {
+  background: rgba(0, 0, 0, 0.4274509804);
+  height: 100%;
+  padding: 225px 0 230px;
+  width: 100%;
+}
+.about_video .video_wrapper span {
+  color: #d61c22;
+  font-size: 30px;
+}
+.about_video .video_wrapper h2 {
+  margin-top: 5px;
+  color: white;
+  font-size: 50px;
+  word-spacing: 6px;
+  letter-spacing: 10px;
+  letter-spacing: 10px;
+}
+.about_video .video_wrapper .circle {
+  margin: 0 auto;
+  margin-top: 43px;
+  width: 70px;
+  height: 70px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.about_video .video_wrapper .circle:hover {
+  background-color: #d61c22;
+  opacity: 0.7;
+  transform: scale(1.2);
+}
+.about_video .video_wrapper .circle:hover i {
+  color: white;
+}
+.about_video .video_wrapper .circle i {
+  font-size: 16px;
+  color: black;
+  margin-left: 3px;
+  transition: 0.3s;
+}
+
+.recipes {
+  width: 100%;
+  background-color: #F1F1F1;
+  padding-top: 120px;
+  padding-bottom: 105px;
+}
+.recipes__unit {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.recipes__unit .box {
+  width: 600px;
+  height: 420px;
+  padding: 45px 15px 30px;
+}
+.recipes__unit .box span {
+  color: #d61c22;
+  font-size: 30px;
+}
+.recipes__unit .box h2 {
+  color: #222;
+  font-size: 50px;
+  margin: 5px 0 35px;
+}
+.recipes__unit .box p {
+  margin: 0 28px 22px;
+  color: #666;
+  text-align: center;
+  font-size: 15px;
+  line-height: 1.7;
+}
+.recipes__unit .box-img {
+  width: 600px;
+  height: 420px;
+  padding: 0 15px 85px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+.recipes__unit .box-img div {
+  width: 390px;
+  height: 390px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.recipes__unit .box-img div img {
+  width: 390px;
+  height: 390px;
+  transition: 0.3s;
+}
+.recipes__unit .box-img div img:hover {
+  transform: scale(1.1);
+}
+
+.rom_restaurant {
+  width: 100%;
+  background-color: #F1F1F1;
+  padding-top: 40px;
+  padding-bottom: 105px;
+}
+.rom_restaurant__unit {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.rom_restaurant__unit .box {
+  width: 600px;
+  height: 420px;
+  padding: 45px 15px 30px;
+}
+.rom_restaurant__unit .box span {
+  color: #d61c22;
+  font-size: 30px;
+}
+.rom_restaurant__unit .box h2 {
+  color: #222;
+  font-size: 50px;
+  margin: 5px 0 35px;
+}
+.rom_restaurant__unit .box p {
+  margin: 0 28px 22px;
+  color: #666;
+  text-align: center;
+  font-size: 15px;
+  line-height: 1.7;
+}
+.rom_restaurant__unit .box-img {
+  width: 600px;
+  height: 420px;
+  padding: 0 15px 85px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+.rom_restaurant__unit .box-img div {
+  width: 390px;
+  height: 390px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.rom_restaurant__unit .box-img div img {
+  width: 390px;
+  height: 390px;
+  transition: 0.3s;
+}
+.rom_restaurant__unit .box-img div img:hover {
+  transform: scale(1.1);
+}
+
+.conversion {
+  width: 100%;
+  height: 616px;
+  background: url("https://preview.colorlib.com/theme/pato/images/bg-cover-video-02.jpg.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.conversion .video_wrapper {
+  background-color: rgba(0, 0, 0, 0.4784313725);
+  width: 100%;
+  height: 100%;
+}
+
+.chef {
+  padding: 115px 15px 95px;
+  background-color: #FFFFFF;
+}
+.chef .titleTop {
+  color: #d61c22;
+  font-size: 30px;
+}
+.chef h2 {
+  color: #222;
+  font-size: 50px;
+  letter-spacing: 10px;
+  word-spacing: 8px;
+  margin: 5px 0 100px;
+}
+.chef .unit {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.chef .unit .card {
+  max-width: 370px;
+  max-height: 320px;
+  border: 2px solid #e6e6e6;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+  padding: 90px 35px 30px;
+}
+.chef .unit .card .circle {
+  top: -110px;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 117px;
+  height: 117px;
+  border-radius: 50%;
+  border: 5px #d61c22 solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.chef .unit .card .circle img {
+  width: 109px;
+  height: 109px;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+.chef .unit .card .circle img:hover {
+  transform: scale(1.1);
+}
+.chef .unit .card h5 {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.4;
+  color: #333333;
+  letter-spacing: 2px;
+  transition: 0.3s;
+  cursor: pointer;
+  margin-bottom: 6px;
+}
+.chef .unit .card h5:hover {
+  color: #d61c22;
+}
+.chef .unit .card span {
+  font-size: 12px;
+  color: #666666;
+  text-transform: uppercase;
+  line-height: 1.8;
+}
+.chef .unit .card p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.7;
+  color: #666666;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 900px) {
+  .chef .unit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+  }
+}
+@media (max-width: 576px) {
+  .story h2 {
+    font-size: 40px;
+  }
+  .story span {
+    font-size: 25px;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.welcome_top .mainTop__wrapper h1, .welcome__unit .box h2, .wrapper .pato .txt h2, .menu h2, .events h2, .events__wrapper .typog .timer__items .timer__item, .reservation .unit .box1 h2, .review h2, .video .video_wrapper h2, .news h2, .menu-mainTop h1, .lunch_jump .wrapper h2, .dinner_jump .wrapper h2, .reservation-mainTop h1, .book_table h2, .aboutUs-mainTop h1, .story h2, .about_video .video_wrapper h2, .recipes__unit .box h2, .rom_restaurant__unit .box h2, .chef h2 {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  line-height: 50px;
+}
+
+.welcome_top .mainTop__wrapper span, .welcome__unit .box span, .wrapper .pato .txt span, .menu span, .events .titleTop, .reservation .unit .box1 span, .review span, .video .video_wrapper span, .news .titleTop, .book_table .titleTop, .story span, .about_video .video_wrapper span, .recipes__unit .box span, .rom_restaurant__unit .box span, .chef .titleTop {
+  font-family: "Courgette", cursive;
+  display: block;
+  text-align: center;
+}
+
+.reservation .unit .box1 form .form_wrapper .column input,
+.reservation .unit .box1 form .form_wrapper .column select, .specialsSignUp form input, .book_table form .row .box input {
+  border-radius: 10px;
+  padding-left: 20px;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 14px;
+  color: #666;
+}
+
+.welcome__unit .box a, .advantages__unit .card .descr a, .events__wrapper .typog a, .news__unit .card .descr a {
+  color: #222;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  display: block;
+  text-align: center;
+  transition: 0.4s;
+}
+.welcome__unit .box a:hover, .advantages__unit .card .descr a:hover, .events__wrapper .typog a:hover, .news__unit .card .descr a:hover {
+  color: #d61c22;
+}
+.welcome__unit .box a:hover i, .advantages__unit .card .descr a:hover i, .events__wrapper .typog a:hover i, .news__unit .card .descr a:hover i {
+  color: #d61c22;
+}
+.welcome__unit .box a i, .advantages__unit .card .descr a i, .events__wrapper .typog a i, .news__unit .card .descr a i {
+  transition: 0.4s;
+  color: #333;
+}
+
+.menu-main_menu .unit .card .wrapper .top_title {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.2;
+  color: #222222;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.welcome_top .mainTop__wrapper h1, .welcome__unit .box h2, .wrapper .pato .txt h2, .menu h2, .events h2, .events__wrapper .typog .timer__items .timer__item, .reservation .unit .box1 h2, .review h2, .video .video_wrapper h2, .news h2, .menu-mainTop h1, .lunch_jump .wrapper h2, .dinner_jump .wrapper h2, .reservation-mainTop h1, .book_table h2, .aboutUs-mainTop h1, .story h2, .about_video .video_wrapper h2, .recipes__unit .box h2, .rom_restaurant__unit .box h2, .chef h2 {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  line-height: 50px;
+}
+
+.welcome_top .mainTop__wrapper span, .welcome__unit .box span, .wrapper .pato .txt span, .menu span, .events .titleTop, .reservation .unit .box1 span, .review span, .video .video_wrapper span, .news .titleTop, .book_table .titleTop, .story span, .about_video .video_wrapper span, .recipes__unit .box span, .rom_restaurant__unit .box span, .chef .titleTop {
   font-family: "Courgette", cursive;
   display: block;
   text-align: center;
