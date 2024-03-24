@@ -33,7 +33,7 @@ body {
   text-align: center;
 }
 
-.book_table form .row .box input, .specialsSignUp form input, .reservation .unit .box1 form .form_wrapper .column input,
+.feedback form .row .box input, .book_table form .row .box input, .specialsSignUp form input, .reservation .unit .box1 form .form_wrapper .column input,
 .reservation .unit .box1 form .form_wrapper .column select {
   border-radius: 10px;
   padding-left: 20px;
@@ -85,7 +85,7 @@ body {
   text-align: center;
 }
 
-.book_table form .row .box input, .specialsSignUp form input, .reservation .unit .box1 form .form_wrapper .column input,
+.feedback form .row .box input, .book_table form .row .box input, .specialsSignUp form input, .reservation .unit .box1 form .form_wrapper .column input,
 .reservation .unit .box1 form .form_wrapper .column select {
   border-radius: 10px;
   padding-left: 20px;
@@ -236,7 +236,7 @@ body {
   text-align: center;
 }
 
-.book_table form .row .box input, .specialsSignUp form input, .reservation .unit .box1 form .form_wrapper .column input,
+.feedback form .row .box input, .book_table form .row .box input, .specialsSignUp form input, .reservation .unit .box1 form .form_wrapper .column input,
 .reservation .unit .box1 form .form_wrapper .column select {
   border-radius: 10px;
   padding-left: 20px;
@@ -288,7 +288,7 @@ body {
   text-align: center;
 }
 
-.book_table form .row .box input, .specialsSignUp form input, .reservation .unit .box1 form .form_wrapper .column input,
+.feedback form .row .box input, .book_table form .row .box input, .specialsSignUp form input, .reservation .unit .box1 form .form_wrapper .column input,
 .reservation .unit .box1 form .form_wrapper .column select {
   border-radius: 10px;
   padding-left: 20px;
@@ -1462,7 +1462,7 @@ body {
   text-align: center;
 }
 
-.book_table form .row .box input, .reservation .unit .box1 form .form_wrapper .column input,
+.feedback form .row .box input, .book_table form .row .box input, .reservation .unit .box1 form .form_wrapper .column input,
 .reservation .unit .box1 form .form_wrapper .column select, .specialsSignUp form input {
   border-radius: 10px;
   padding-left: 20px;
@@ -1514,7 +1514,7 @@ body {
   text-align: center;
 }
 
-.book_table form .row .box input, .reservation .unit .box1 form .form_wrapper .column input,
+.feedback form .row .box input, .book_table form .row .box input, .reservation .unit .box1 form .form_wrapper .column input,
 .reservation .unit .box1 form .form_wrapper .column select, .specialsSignUp form input {
   border-radius: 10px;
   padding-left: 20px;
@@ -1841,7 +1841,7 @@ body {
   text-align: center;
 }
 
-.book_table form .row .box input, .reservation .unit .box1 form .form_wrapper .column input,
+.feedback form .row .box input, .book_table form .row .box input, .reservation .unit .box1 form .form_wrapper .column input,
 .reservation .unit .box1 form .form_wrapper .column select, .specialsSignUp form input {
   border-radius: 10px;
   padding-left: 20px;
@@ -1893,7 +1893,7 @@ body {
   text-align: center;
 }
 
-.book_table form .row .box input, .reservation .unit .box1 form .form_wrapper .column input,
+.feedback form .row .box input, .book_table form .row .box input, .reservation .unit .box1 form .form_wrapper .column input,
 .reservation .unit .box1 form .form_wrapper .column select, .specialsSignUp form input {
   border-radius: 10px;
   padding-left: 20px;
@@ -2161,7 +2161,7 @@ body {
   text-align: center;
 }
 
-.reservation .unit .box1 form .form_wrapper .column input,
+.feedback form .row .box input, .reservation .unit .box1 form .form_wrapper .column input,
 .reservation .unit .box1 form .form_wrapper .column select, .specialsSignUp form input, .book_table form .row .box input {
   border-radius: 10px;
   padding-left: 20px;
@@ -2213,7 +2213,7 @@ body {
   text-align: center;
 }
 
-.reservation .unit .box1 form .form_wrapper .column input,
+.feedback form .row .box input, .reservation .unit .box1 form .form_wrapper .column input,
 .reservation .unit .box1 form .form_wrapper .column select, .specialsSignUp form input, .book_table form .row .box input {
   border-radius: 10px;
   padding-left: 20px;
@@ -2462,7 +2462,7 @@ body {
   text-align: center;
 }
 
-.reservation .unit .box1 form .form_wrapper .column input,
+.feedback form .row .box input, .reservation .unit .box1 form .form_wrapper .column input,
 .reservation .unit .box1 form .form_wrapper .column select, .specialsSignUp form input, .book_table form .row .box input {
   border-radius: 10px;
   padding-left: 20px;
@@ -2514,7 +2514,7 @@ body {
   text-align: center;
 }
 
-.reservation .unit .box1 form .form_wrapper .column input,
+.feedback form .row .box input, .reservation .unit .box1 form .form_wrapper .column input,
 .reservation .unit .box1 form .form_wrapper .column select, .specialsSignUp form input, .book_table form .row .box input {
   border-radius: 10px;
   padding-left: 20px;
@@ -2929,7 +2929,7 @@ body {
   text-align: center;
 }
 
-.reservation .unit .box1 form .form_wrapper .column input,
+.feedback form .row .box input, .reservation .unit .box1 form .form_wrapper .column input,
 .reservation .unit .box1 form .form_wrapper .column select, .specialsSignUp form input, .book_table form .row .box input {
   border-radius: 10px;
   padding-left: 20px;
@@ -2981,8 +2981,287 @@ body {
   text-align: center;
 }
 
-.reservation .unit .box1 form .form_wrapper .column input,
+.feedback form .row .box input, .reservation .unit .box1 form .form_wrapper .column input,
 .reservation .unit .box1 form .form_wrapper .column select, .specialsSignUp form input, .book_table form .row .box input {
+  border-radius: 10px;
+  padding-left: 20px;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 14px;
+  color: #666;
+}
+
+.welcome__unit .box a, .advantages__unit .card .descr a, .events__wrapper .typog a, .news__unit .card .descr a {
+  color: #222;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  display: block;
+  text-align: center;
+  transition: 0.4s;
+}
+.welcome__unit .box a:hover, .advantages__unit .card .descr a:hover, .events__wrapper .typog a:hover, .news__unit .card .descr a:hover {
+  color: #d61c22;
+}
+.welcome__unit .box a:hover i, .advantages__unit .card .descr a:hover i, .events__wrapper .typog a:hover i, .news__unit .card .descr a:hover i {
+  color: #d61c22;
+}
+.welcome__unit .box a i, .advantages__unit .card .descr a i, .events__wrapper .typog a i, .news__unit .card .descr a i {
+  transition: 0.4s;
+  color: #333;
+}
+
+.menu-main_menu .unit .card .wrapper .top_title {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.2;
+  color: #222222;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.map {
+  padding: 90px 15px 0;
+  background-color: #EFEFEF;
+}
+.map iframe {
+  width: 100%;
+  height: 400px;
+}
+
+.feedback {
+  padding-top: 105px;
+  background-color: #EFEFEF;
+}
+.feedback h3 {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 1.2;
+  color: #222;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding-bottom: 62px;
+  text-align: center;
+}
+.feedback form label {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 15px;
+  color: #555555;
+}
+.feedback form .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.feedback form .row .box {
+  width: 299px;
+  padding: 0 15px;
+  height: 100px;
+}
+.feedback form .row .box input {
+  border: 2px solid #d9d9d9;
+  width: 265px;
+  height: 46px;
+  margin-top: 3px;
+  margin-bottom: 23px;
+}
+.feedback form .txtarea {
+  transition: 0.3s;
+  width: 870px;
+  margin: 0 auto;
+}
+.feedback form .txtarea textarea {
+  width: 100%;
+  margin-top: 3px;
+  display: block;
+  border: 2px solid #d9d9d9;
+  border-radius: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #666;
+  padding: 15px 20px;
+  min-height: 180px;
+}
+.feedback form button {
+  display: block;
+  margin: 0 auto;
+  background: #111111;
+  border-radius: 10px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.1;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  width: 120px;
+  height: 40px;
+  border: none;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.feedback form button:hover {
+  background-color: #d61c22;
+  color: white;
+}
+
+.info {
+  background-color: #EFEFEF;
+  padding-top: 135px;
+  padding-bottom: 113px;
+}
+.info__wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.info__wrapper .card {
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  height: 117px;
+  padding: 30px 15px 0;
+  gap: 30px;
+}
+.info__wrapper .card img {
+  margin-top: 10px;
+}
+.info__wrapper .card .descr h5 {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 22px;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+}
+.info__wrapper .card .descr p {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 13px;
+  color: #666666;
+  line-height: 1.7;
+}
+
+@media screen and (max-width: 900px) {
+  .feedback form .txtarea {
+    width: 500px;
+  }
+  .info__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .info__wrapper .card {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
+@media screen and (max-width: 597px) {
+  .feedback form .txtarea {
+    width: 265px;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.welcome_top .mainTop__wrapper h1, .welcome__unit .box h2, .wrapper .pato .txt h2, .menu h2, .events h2, .events__wrapper .typog .timer__items .timer__item, .reservation .unit .box1 h2, .review h2, .video .video_wrapper h2, .news h2, .menu-mainTop h1, .lunch_jump .wrapper h2, .dinner_jump .wrapper h2, .reservation-mainTop h1, .book_table h2, .aboutUs-mainTop h1, .story h2, .about_video .video_wrapper h2, .recipes__unit .box h2, .rom_restaurant__unit .box h2, .chef h2 {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  line-height: 50px;
+}
+
+.welcome_top .mainTop__wrapper span, .welcome__unit .box span, .wrapper .pato .txt span, .menu span, .events .titleTop, .reservation .unit .box1 span, .review span, .video .video_wrapper span, .news .titleTop, .book_table .titleTop, .story span, .about_video .video_wrapper span, .recipes__unit .box span, .rom_restaurant__unit .box span, .chef .titleTop {
+  font-family: "Courgette", cursive;
+  display: block;
+  text-align: center;
+}
+
+.reservation .unit .box1 form .form_wrapper .column input,
+.reservation .unit .box1 form .form_wrapper .column select, .specialsSignUp form input, .book_table form .row .box input, .feedback form .row .box input {
+  border-radius: 10px;
+  padding-left: 20px;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 14px;
+  color: #666;
+}
+
+.welcome__unit .box a, .advantages__unit .card .descr a, .events__wrapper .typog a, .news__unit .card .descr a {
+  color: #222;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  display: block;
+  text-align: center;
+  transition: 0.4s;
+}
+.welcome__unit .box a:hover, .advantages__unit .card .descr a:hover, .events__wrapper .typog a:hover, .news__unit .card .descr a:hover {
+  color: #d61c22;
+}
+.welcome__unit .box a:hover i, .advantages__unit .card .descr a:hover i, .events__wrapper .typog a:hover i, .news__unit .card .descr a:hover i {
+  color: #d61c22;
+}
+.welcome__unit .box a i, .advantages__unit .card .descr a i, .events__wrapper .typog a i, .news__unit .card .descr a i {
+  transition: 0.4s;
+  color: #333;
+}
+
+.menu-main_menu .unit .card .wrapper .top_title {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.2;
+  color: #222222;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.welcome_top .mainTop__wrapper h1, .welcome__unit .box h2, .wrapper .pato .txt h2, .menu h2, .events h2, .events__wrapper .typog .timer__items .timer__item, .reservation .unit .box1 h2, .review h2, .video .video_wrapper h2, .news h2, .menu-mainTop h1, .lunch_jump .wrapper h2, .dinner_jump .wrapper h2, .reservation-mainTop h1, .book_table h2, .aboutUs-mainTop h1, .story h2, .about_video .video_wrapper h2, .recipes__unit .box h2, .rom_restaurant__unit .box h2, .chef h2 {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  line-height: 50px;
+}
+
+.welcome_top .mainTop__wrapper span, .welcome__unit .box span, .wrapper .pato .txt span, .menu span, .events .titleTop, .reservation .unit .box1 span, .review span, .video .video_wrapper span, .news .titleTop, .book_table .titleTop, .story span, .about_video .video_wrapper span, .recipes__unit .box span, .rom_restaurant__unit .box span, .chef .titleTop {
+  font-family: "Courgette", cursive;
+  display: block;
+  text-align: center;
+}
+
+.reservation .unit .box1 form .form_wrapper .column input,
+.reservation .unit .box1 form .form_wrapper .column select, .specialsSignUp form input, .book_table form .row .box input, .feedback form .row .box input {
   border-radius: 10px;
   padding-left: 20px;
   font-family: Montserrat;

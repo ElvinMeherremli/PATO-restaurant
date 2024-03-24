@@ -1,0 +1,130 @@
+@import "../base/reset";
+@import "../utils/variables";
+@import "../utils/mixins";
+@import "../utils/extends";
+
+.map {
+    padding: 90px 15px 0;
+    background-color: #EFEFEF;
+    iframe {
+        width: 100%;
+        height: 400px;
+    }
+}
+
+.feedback {
+    padding-top: 105px;
+    background-color: #EFEFEF;
+    h3 {
+        font-family: Poppins;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 1.2;
+        color: $black-2;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        padding-bottom: 62px;
+        text-align: center;
+    }
+    form {
+        label {
+            font-family: Montserrat;
+            font-weight: 400;
+            font-size: 15px;
+            color: #555555;
+        }
+        .row {
+            @include flex(flex, row, center,center);
+            .box {
+                width: 299px;
+                padding: 0 15px;
+                height: 100px;
+                input {
+                    @extend %input;
+                    border: 2px solid #d9d9d9;
+                    width: 265px;
+                    height: 46px;
+                    margin-top: 3px;
+                    margin-bottom: 23px;
+                }
+            }
+        }
+
+        .txtarea {
+            transition: .3s;
+            width: 870px;
+            margin: 0 auto;
+            textarea {
+                width: 100%;
+                margin-top: 3px;
+                display: block;
+                border: 2px solid #d9d9d9;
+                border-radius: 10px;
+                font-weight: 400;
+                font-size: 14px;
+                color: $gray;
+                padding: 15px 20px;
+                min-height: 180px;
+            }
+        }
+        button {
+            display: block;
+            margin: 0 auto;
+            background: #111111;
+            border-radius: 10px;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 1.1;
+            color: white;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            width: 120px;
+            height: 40px;
+            border: none;
+            transition: .3s;
+            cursor: pointer;
+            &:hover {
+                background-color: $red;
+                color: white;
+            }
+        }
+    }
+}
+
+.info {
+    background-color: #EFEFEF;
+    padding-top: 135px;
+    padding-bottom: 113px;
+    &__wrapper {
+        width: 100%;
+        @include flex (flex, row, center, center);
+        .card {
+            width: 400px;
+            @include flex (flex, row, center, flex-start);
+            height: 117px;
+            padding: 30px 15px 0;
+            gap: 30px;
+            img {
+                margin-top: 10px;
+            }
+            .descr {
+                h5 {
+                    font-family: Poppins;
+                    font-weight: 500;
+                    font-size: 22px;
+                    color: $black-3;
+                    text-transform: uppercase;
+                    letter-spacing: 3px;
+                    margin-bottom: 10px;
+                }
+                p {
+                    font-family: Montserrat;
+                    font-weight: 400;
+                    font-size: 13px;
+                    color: #666666;
+                    line-height: 1.7;
+                }
+            }
+        }
+    }
+}
