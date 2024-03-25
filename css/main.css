@@ -21,7 +21,7 @@ body {
   flex-wrap: wrap;
 }
 
-.chef h2, .rom_restaurant__unit .box h2, .recipes__unit .box h2, .about_video .video_wrapper h2, .story h2, .aboutUs-mainTop h1, .book_table h2, .reservation-mainTop h1, .lunch_jump .wrapper h2, .dinner_jump .wrapper h2, .menu-mainTop h1, .news h2, .video .video_wrapper h2, .review h2, .reservation .unit .box1 h2, .events__wrapper .typog .timer__items .timer__item, .events h2, .menu h2, .wrapper .pato .txt h2, .welcome__unit .box h2, .welcome_top .mainTop__wrapper h1 {
+.blog-mainTop h1, .chef h2, .rom_restaurant__unit .box h2, .recipes__unit .box h2, .about_video .video_wrapper h2, .story h2, .aboutUs-mainTop h1, .book_table h2, .reservation-mainTop h1, .lunch_jump .wrapper h2, .dinner_jump .wrapper h2, .menu-mainTop h1, .news h2, .video .video_wrapper h2, .review h2, .reservation .unit .box1 h2, .events__wrapper .typog .timer__items .timer__item, .events h2, .menu h2, .wrapper .pato .txt h2, .welcome__unit .box h2, .welcome_top .mainTop__wrapper h1 {
   font-family: "Poppins", sans-serif;
   text-align: center;
   line-height: 50px;
@@ -43,22 +43,21 @@ body {
   color: #666;
 }
 
-.news__unit .card .descr a, .events__wrapper .typog a, .advantages__unit .card .descr a, .welcome__unit .box a {
+.blog_wrapper__unit section .section a, .news__unit .card .descr a, .events__wrapper .typog a, .advantages__unit .card .descr a, .welcome__unit .box a {
   color: #222;
   font-size: 12px;
   font-weight: 400;
   font-family: "Montserrat", sans-serif;
   display: block;
-  text-align: center;
   transition: 0.4s;
 }
-.news__unit .card .descr a:hover, .events__wrapper .typog a:hover, .advantages__unit .card .descr a:hover, .welcome__unit .box a:hover {
+.blog_wrapper__unit section .section a:hover, .news__unit .card .descr a:hover, .events__wrapper .typog a:hover, .advantages__unit .card .descr a:hover, .welcome__unit .box a:hover {
   color: #d61c22;
 }
-.news__unit .card .descr a:hover i, .events__wrapper .typog a:hover i, .advantages__unit .card .descr a:hover i, .welcome__unit .box a:hover i {
+.blog_wrapper__unit section .section a:hover i, .news__unit .card .descr a:hover i, .events__wrapper .typog a:hover i, .advantages__unit .card .descr a:hover i, .welcome__unit .box a:hover i {
   color: #d61c22;
 }
-.news__unit .card .descr a i, .events__wrapper .typog a i, .advantages__unit .card .descr a i, .welcome__unit .box a i {
+.blog_wrapper__unit section .section a i, .news__unit .card .descr a i, .events__wrapper .typog a i, .advantages__unit .card .descr a i, .welcome__unit .box a i {
   transition: 0.4s;
   color: #333;
 }
@@ -73,7 +72,7 @@ body {
   letter-spacing: 3px;
 }
 
-.chef h2, .rom_restaurant__unit .box h2, .recipes__unit .box h2, .about_video .video_wrapper h2, .story h2, .aboutUs-mainTop h1, .book_table h2, .reservation-mainTop h1, .lunch_jump .wrapper h2, .dinner_jump .wrapper h2, .menu-mainTop h1, .news h2, .video .video_wrapper h2, .review h2, .reservation .unit .box1 h2, .events__wrapper .typog .timer__items .timer__item, .events h2, .menu h2, .wrapper .pato .txt h2, .welcome__unit .box h2, .welcome_top .mainTop__wrapper h1 {
+.blog-mainTop h1, .chef h2, .rom_restaurant__unit .box h2, .recipes__unit .box h2, .about_video .video_wrapper h2, .story h2, .aboutUs-mainTop h1, .book_table h2, .reservation-mainTop h1, .lunch_jump .wrapper h2, .dinner_jump .wrapper h2, .menu-mainTop h1, .news h2, .video .video_wrapper h2, .review h2, .reservation .unit .box1 h2, .events__wrapper .typog .timer__items .timer__item, .events h2, .menu h2, .wrapper .pato .txt h2, .welcome__unit .box h2, .welcome_top .mainTop__wrapper h1 {
   font-family: "Poppins", sans-serif;
   text-align: center;
   line-height: 50px;
@@ -95,22 +94,21 @@ body {
   color: #666;
 }
 
-.news__unit .card .descr a, .events__wrapper .typog a, .advantages__unit .card .descr a, .welcome__unit .box a {
+.blog_wrapper__unit section .section a, .news__unit .card .descr a, .events__wrapper .typog a, .advantages__unit .card .descr a, .welcome__unit .box a {
   color: #222;
   font-size: 12px;
   font-weight: 400;
   font-family: "Montserrat", sans-serif;
   display: block;
-  text-align: center;
   transition: 0.4s;
 }
-.news__unit .card .descr a:hover, .events__wrapper .typog a:hover, .advantages__unit .card .descr a:hover, .welcome__unit .box a:hover {
+.blog_wrapper__unit section .section a:hover, .news__unit .card .descr a:hover, .events__wrapper .typog a:hover, .advantages__unit .card .descr a:hover, .welcome__unit .box a:hover {
   color: #d61c22;
 }
-.news__unit .card .descr a:hover i, .events__wrapper .typog a:hover i, .advantages__unit .card .descr a:hover i, .welcome__unit .box a:hover i {
+.blog_wrapper__unit section .section a:hover i, .news__unit .card .descr a:hover i, .events__wrapper .typog a:hover i, .advantages__unit .card .descr a:hover i, .welcome__unit .box a:hover i {
   color: #d61c22;
 }
-.news__unit .card .descr a i, .events__wrapper .typog a i, .advantages__unit .card .descr a i, .welcome__unit .box a i {
+.blog_wrapper__unit section .section a i, .news__unit .card .descr a i, .events__wrapper .typog a i, .advantages__unit .card .descr a i, .welcome__unit .box a i {
   transition: 0.4s;
   color: #333;
 }
@@ -224,7 +222,7 @@ body {
   flex-wrap: wrap;
 }
 
-.chef h2, .rom_restaurant__unit .box h2, .recipes__unit .box h2, .about_video .video_wrapper h2, .story h2, .aboutUs-mainTop h1, .book_table h2, .reservation-mainTop h1, .lunch_jump .wrapper h2, .dinner_jump .wrapper h2, .menu-mainTop h1, .news h2, .video .video_wrapper h2, .review h2, .reservation .unit .box1 h2, .events__wrapper .typog .timer__items .timer__item, .events h2, .menu h2, .wrapper .pato .txt h2, .welcome__unit .box h2, .welcome_top .mainTop__wrapper h1 {
+.blog-mainTop h1, .chef h2, .rom_restaurant__unit .box h2, .recipes__unit .box h2, .about_video .video_wrapper h2, .story h2, .aboutUs-mainTop h1, .book_table h2, .reservation-mainTop h1, .lunch_jump .wrapper h2, .dinner_jump .wrapper h2, .menu-mainTop h1, .news h2, .video .video_wrapper h2, .review h2, .reservation .unit .box1 h2, .events__wrapper .typog .timer__items .timer__item, .events h2, .menu h2, .wrapper .pato .txt h2, .welcome__unit .box h2, .welcome_top .mainTop__wrapper h1 {
   font-family: "Poppins", sans-serif;
   text-align: center;
   line-height: 50px;
@@ -246,22 +244,21 @@ body {
   color: #666;
 }
 
-.news__unit .card .descr a, .events__wrapper .typog a, .advantages__unit .card .descr a, .welcome__unit .box a {
+.blog_wrapper__unit section .section a, .news__unit .card .descr a, .events__wrapper .typog a, .advantages__unit .card .descr a, .welcome__unit .box a {
   color: #222;
   font-size: 12px;
   font-weight: 400;
   font-family: "Montserrat", sans-serif;
   display: block;
-  text-align: center;
   transition: 0.4s;
 }
-.news__unit .card .descr a:hover, .events__wrapper .typog a:hover, .advantages__unit .card .descr a:hover, .welcome__unit .box a:hover {
+.blog_wrapper__unit section .section a:hover, .news__unit .card .descr a:hover, .events__wrapper .typog a:hover, .advantages__unit .card .descr a:hover, .welcome__unit .box a:hover {
   color: #d61c22;
 }
-.news__unit .card .descr a:hover i, .events__wrapper .typog a:hover i, .advantages__unit .card .descr a:hover i, .welcome__unit .box a:hover i {
+.blog_wrapper__unit section .section a:hover i, .news__unit .card .descr a:hover i, .events__wrapper .typog a:hover i, .advantages__unit .card .descr a:hover i, .welcome__unit .box a:hover i {
   color: #d61c22;
 }
-.news__unit .card .descr a i, .events__wrapper .typog a i, .advantages__unit .card .descr a i, .welcome__unit .box a i {
+.blog_wrapper__unit section .section a i, .news__unit .card .descr a i, .events__wrapper .typog a i, .advantages__unit .card .descr a i, .welcome__unit .box a i {
   transition: 0.4s;
   color: #333;
 }
@@ -276,7 +273,7 @@ body {
   letter-spacing: 3px;
 }
 
-.chef h2, .rom_restaurant__unit .box h2, .recipes__unit .box h2, .about_video .video_wrapper h2, .story h2, .aboutUs-mainTop h1, .book_table h2, .reservation-mainTop h1, .lunch_jump .wrapper h2, .dinner_jump .wrapper h2, .menu-mainTop h1, .news h2, .video .video_wrapper h2, .review h2, .reservation .unit .box1 h2, .events__wrapper .typog .timer__items .timer__item, .events h2, .menu h2, .wrapper .pato .txt h2, .welcome__unit .box h2, .welcome_top .mainTop__wrapper h1 {
+.blog-mainTop h1, .chef h2, .rom_restaurant__unit .box h2, .recipes__unit .box h2, .about_video .video_wrapper h2, .story h2, .aboutUs-mainTop h1, .book_table h2, .reservation-mainTop h1, .lunch_jump .wrapper h2, .dinner_jump .wrapper h2, .menu-mainTop h1, .news h2, .video .video_wrapper h2, .review h2, .reservation .unit .box1 h2, .events__wrapper .typog .timer__items .timer__item, .events h2, .menu h2, .wrapper .pato .txt h2, .welcome__unit .box h2, .welcome_top .mainTop__wrapper h1 {
   font-family: "Poppins", sans-serif;
   text-align: center;
   line-height: 50px;
@@ -298,22 +295,21 @@ body {
   color: #666;
 }
 
-.news__unit .card .descr a, .events__wrapper .typog a, .advantages__unit .card .descr a, .welcome__unit .box a {
+.blog_wrapper__unit section .section a, .news__unit .card .descr a, .events__wrapper .typog a, .advantages__unit .card .descr a, .welcome__unit .box a {
   color: #222;
   font-size: 12px;
   font-weight: 400;
   font-family: "Montserrat", sans-serif;
   display: block;
-  text-align: center;
   transition: 0.4s;
 }
-.news__unit .card .descr a:hover, .events__wrapper .typog a:hover, .advantages__unit .card .descr a:hover, .welcome__unit .box a:hover {
+.blog_wrapper__unit section .section a:hover, .news__unit .card .descr a:hover, .events__wrapper .typog a:hover, .advantages__unit .card .descr a:hover, .welcome__unit .box a:hover {
   color: #d61c22;
 }
-.news__unit .card .descr a:hover i, .events__wrapper .typog a:hover i, .advantages__unit .card .descr a:hover i, .welcome__unit .box a:hover i {
+.blog_wrapper__unit section .section a:hover i, .news__unit .card .descr a:hover i, .events__wrapper .typog a:hover i, .advantages__unit .card .descr a:hover i, .welcome__unit .box a:hover i {
   color: #d61c22;
 }
-.news__unit .card .descr a i, .events__wrapper .typog a i, .advantages__unit .card .descr a i, .welcome__unit .box a i {
+.blog_wrapper__unit section .section a i, .news__unit .card .descr a i, .events__wrapper .typog a i, .advantages__unit .card .descr a i, .welcome__unit .box a i {
   transition: 0.4s;
   color: #333;
 }
@@ -452,6 +448,9 @@ body {
   text-align: center;
   font-size: 15px;
   line-height: 1.7;
+}
+.welcome__unit .box a {
+  text-align: center;
 }
 .welcome__unit .box-img {
   width: 600px;
@@ -1450,7 +1449,7 @@ body {
   flex-wrap: wrap;
 }
 
-.chef h2, .rom_restaurant__unit .box h2, .recipes__unit .box h2, .about_video .video_wrapper h2, .story h2, .aboutUs-mainTop h1, .book_table h2, .reservation-mainTop h1, .lunch_jump .wrapper h2, .dinner_jump .wrapper h2, .menu-mainTop h1, .welcome_top .mainTop__wrapper h1, .welcome__unit .box h2, .wrapper .pato .txt h2, .menu h2, .events h2, .events__wrapper .typog .timer__items .timer__item, .reservation .unit .box1 h2, .review h2, .video .video_wrapper h2, .news h2 {
+.blog-mainTop h1, .chef h2, .rom_restaurant__unit .box h2, .recipes__unit .box h2, .about_video .video_wrapper h2, .story h2, .aboutUs-mainTop h1, .book_table h2, .reservation-mainTop h1, .lunch_jump .wrapper h2, .dinner_jump .wrapper h2, .menu-mainTop h1, .welcome_top .mainTop__wrapper h1, .welcome__unit .box h2, .wrapper .pato .txt h2, .menu h2, .events h2, .events__wrapper .typog .timer__items .timer__item, .reservation .unit .box1 h2, .review h2, .video .video_wrapper h2, .news h2 {
   font-family: "Poppins", sans-serif;
   text-align: center;
   line-height: 50px;
@@ -1472,22 +1471,21 @@ body {
   color: #666;
 }
 
-.welcome__unit .box a, .advantages__unit .card .descr a, .events__wrapper .typog a, .news__unit .card .descr a {
+.blog_wrapper__unit section .section a, .welcome__unit .box a, .advantages__unit .card .descr a, .events__wrapper .typog a, .news__unit .card .descr a {
   color: #222;
   font-size: 12px;
   font-weight: 400;
   font-family: "Montserrat", sans-serif;
   display: block;
-  text-align: center;
   transition: 0.4s;
 }
-.welcome__unit .box a:hover, .advantages__unit .card .descr a:hover, .events__wrapper .typog a:hover, .news__unit .card .descr a:hover {
+.blog_wrapper__unit section .section a:hover, .welcome__unit .box a:hover, .advantages__unit .card .descr a:hover, .events__wrapper .typog a:hover, .news__unit .card .descr a:hover {
   color: #d61c22;
 }
-.welcome__unit .box a:hover i, .advantages__unit .card .descr a:hover i, .events__wrapper .typog a:hover i, .news__unit .card .descr a:hover i {
+.blog_wrapper__unit section .section a:hover i, .welcome__unit .box a:hover i, .advantages__unit .card .descr a:hover i, .events__wrapper .typog a:hover i, .news__unit .card .descr a:hover i {
   color: #d61c22;
 }
-.welcome__unit .box a i, .advantages__unit .card .descr a i, .events__wrapper .typog a i, .news__unit .card .descr a i {
+.blog_wrapper__unit section .section a i, .welcome__unit .box a i, .advantages__unit .card .descr a i, .events__wrapper .typog a i, .news__unit .card .descr a i {
   transition: 0.4s;
   color: #333;
 }
@@ -1502,7 +1500,7 @@ body {
   letter-spacing: 3px;
 }
 
-.chef h2, .rom_restaurant__unit .box h2, .recipes__unit .box h2, .about_video .video_wrapper h2, .story h2, .aboutUs-mainTop h1, .book_table h2, .reservation-mainTop h1, .lunch_jump .wrapper h2, .dinner_jump .wrapper h2, .menu-mainTop h1, .welcome_top .mainTop__wrapper h1, .welcome__unit .box h2, .wrapper .pato .txt h2, .menu h2, .events h2, .events__wrapper .typog .timer__items .timer__item, .reservation .unit .box1 h2, .review h2, .video .video_wrapper h2, .news h2 {
+.blog-mainTop h1, .chef h2, .rom_restaurant__unit .box h2, .recipes__unit .box h2, .about_video .video_wrapper h2, .story h2, .aboutUs-mainTop h1, .book_table h2, .reservation-mainTop h1, .lunch_jump .wrapper h2, .dinner_jump .wrapper h2, .menu-mainTop h1, .welcome_top .mainTop__wrapper h1, .welcome__unit .box h2, .wrapper .pato .txt h2, .menu h2, .events h2, .events__wrapper .typog .timer__items .timer__item, .reservation .unit .box1 h2, .review h2, .video .video_wrapper h2, .news h2 {
   font-family: "Poppins", sans-serif;
   text-align: center;
   line-height: 50px;
@@ -1524,22 +1522,21 @@ body {
   color: #666;
 }
 
-.welcome__unit .box a, .advantages__unit .card .descr a, .events__wrapper .typog a, .news__unit .card .descr a {
+.blog_wrapper__unit section .section a, .welcome__unit .box a, .advantages__unit .card .descr a, .events__wrapper .typog a, .news__unit .card .descr a {
   color: #222;
   font-size: 12px;
   font-weight: 400;
   font-family: "Montserrat", sans-serif;
   display: block;
-  text-align: center;
   transition: 0.4s;
 }
-.welcome__unit .box a:hover, .advantages__unit .card .descr a:hover, .events__wrapper .typog a:hover, .news__unit .card .descr a:hover {
+.blog_wrapper__unit section .section a:hover, .welcome__unit .box a:hover, .advantages__unit .card .descr a:hover, .events__wrapper .typog a:hover, .news__unit .card .descr a:hover {
   color: #d61c22;
 }
-.welcome__unit .box a:hover i, .advantages__unit .card .descr a:hover i, .events__wrapper .typog a:hover i, .news__unit .card .descr a:hover i {
+.blog_wrapper__unit section .section a:hover i, .welcome__unit .box a:hover i, .advantages__unit .card .descr a:hover i, .events__wrapper .typog a:hover i, .news__unit .card .descr a:hover i {
   color: #d61c22;
 }
-.welcome__unit .box a i, .advantages__unit .card .descr a i, .events__wrapper .typog a i, .news__unit .card .descr a i {
+.blog_wrapper__unit section .section a i, .welcome__unit .box a i, .advantages__unit .card .descr a i, .events__wrapper .typog a i, .news__unit .card .descr a i {
   transition: 0.4s;
   color: #333;
 }
@@ -1829,7 +1826,7 @@ body {
   flex-wrap: wrap;
 }
 
-.chef h2, .rom_restaurant__unit .box h2, .recipes__unit .box h2, .about_video .video_wrapper h2, .story h2, .aboutUs-mainTop h1, .book_table h2, .reservation-mainTop h1, .welcome_top .mainTop__wrapper h1, .welcome__unit .box h2, .wrapper .pato .txt h2, .menu h2, .events h2, .events__wrapper .typog .timer__items .timer__item, .reservation .unit .box1 h2, .review h2, .video .video_wrapper h2, .news h2, .menu-mainTop h1, .lunch_jump .wrapper h2, .dinner_jump .wrapper h2 {
+.blog-mainTop h1, .chef h2, .rom_restaurant__unit .box h2, .recipes__unit .box h2, .about_video .video_wrapper h2, .story h2, .aboutUs-mainTop h1, .book_table h2, .reservation-mainTop h1, .welcome_top .mainTop__wrapper h1, .welcome__unit .box h2, .wrapper .pato .txt h2, .menu h2, .events h2, .events__wrapper .typog .timer__items .timer__item, .reservation .unit .box1 h2, .review h2, .video .video_wrapper h2, .news h2, .menu-mainTop h1, .lunch_jump .wrapper h2, .dinner_jump .wrapper h2 {
   font-family: "Poppins", sans-serif;
   text-align: center;
   line-height: 50px;
@@ -1851,22 +1848,21 @@ body {
   color: #666;
 }
 
-.welcome__unit .box a, .advantages__unit .card .descr a, .events__wrapper .typog a, .news__unit .card .descr a {
+.blog_wrapper__unit section .section a, .welcome__unit .box a, .advantages__unit .card .descr a, .events__wrapper .typog a, .news__unit .card .descr a {
   color: #222;
   font-size: 12px;
   font-weight: 400;
   font-family: "Montserrat", sans-serif;
   display: block;
-  text-align: center;
   transition: 0.4s;
 }
-.welcome__unit .box a:hover, .advantages__unit .card .descr a:hover, .events__wrapper .typog a:hover, .news__unit .card .descr a:hover {
+.blog_wrapper__unit section .section a:hover, .welcome__unit .box a:hover, .advantages__unit .card .descr a:hover, .events__wrapper .typog a:hover, .news__unit .card .descr a:hover {
   color: #d61c22;
 }
-.welcome__unit .box a:hover i, .advantages__unit .card .descr a:hover i, .events__wrapper .typog a:hover i, .news__unit .card .descr a:hover i {
+.blog_wrapper__unit section .section a:hover i, .welcome__unit .box a:hover i, .advantages__unit .card .descr a:hover i, .events__wrapper .typog a:hover i, .news__unit .card .descr a:hover i {
   color: #d61c22;
 }
-.welcome__unit .box a i, .advantages__unit .card .descr a i, .events__wrapper .typog a i, .news__unit .card .descr a i {
+.blog_wrapper__unit section .section a i, .welcome__unit .box a i, .advantages__unit .card .descr a i, .events__wrapper .typog a i, .news__unit .card .descr a i {
   transition: 0.4s;
   color: #333;
 }
@@ -1881,7 +1877,7 @@ body {
   letter-spacing: 3px;
 }
 
-.chef h2, .rom_restaurant__unit .box h2, .recipes__unit .box h2, .about_video .video_wrapper h2, .story h2, .aboutUs-mainTop h1, .book_table h2, .reservation-mainTop h1, .welcome_top .mainTop__wrapper h1, .welcome__unit .box h2, .wrapper .pato .txt h2, .menu h2, .events h2, .events__wrapper .typog .timer__items .timer__item, .reservation .unit .box1 h2, .review h2, .video .video_wrapper h2, .news h2, .menu-mainTop h1, .lunch_jump .wrapper h2, .dinner_jump .wrapper h2 {
+.blog-mainTop h1, .chef h2, .rom_restaurant__unit .box h2, .recipes__unit .box h2, .about_video .video_wrapper h2, .story h2, .aboutUs-mainTop h1, .book_table h2, .reservation-mainTop h1, .welcome_top .mainTop__wrapper h1, .welcome__unit .box h2, .wrapper .pato .txt h2, .menu h2, .events h2, .events__wrapper .typog .timer__items .timer__item, .reservation .unit .box1 h2, .review h2, .video .video_wrapper h2, .news h2, .menu-mainTop h1, .lunch_jump .wrapper h2, .dinner_jump .wrapper h2 {
   font-family: "Poppins", sans-serif;
   text-align: center;
   line-height: 50px;
@@ -1903,22 +1899,21 @@ body {
   color: #666;
 }
 
-.welcome__unit .box a, .advantages__unit .card .descr a, .events__wrapper .typog a, .news__unit .card .descr a {
+.blog_wrapper__unit section .section a, .welcome__unit .box a, .advantages__unit .card .descr a, .events__wrapper .typog a, .news__unit .card .descr a {
   color: #222;
   font-size: 12px;
   font-weight: 400;
   font-family: "Montserrat", sans-serif;
   display: block;
-  text-align: center;
   transition: 0.4s;
 }
-.welcome__unit .box a:hover, .advantages__unit .card .descr a:hover, .events__wrapper .typog a:hover, .news__unit .card .descr a:hover {
+.blog_wrapper__unit section .section a:hover, .welcome__unit .box a:hover, .advantages__unit .card .descr a:hover, .events__wrapper .typog a:hover, .news__unit .card .descr a:hover {
   color: #d61c22;
 }
-.welcome__unit .box a:hover i, .advantages__unit .card .descr a:hover i, .events__wrapper .typog a:hover i, .news__unit .card .descr a:hover i {
+.blog_wrapper__unit section .section a:hover i, .welcome__unit .box a:hover i, .advantages__unit .card .descr a:hover i, .events__wrapper .typog a:hover i, .news__unit .card .descr a:hover i {
   color: #d61c22;
 }
-.welcome__unit .box a i, .advantages__unit .card .descr a i, .events__wrapper .typog a i, .news__unit .card .descr a i {
+.blog_wrapper__unit section .section a i, .welcome__unit .box a i, .advantages__unit .card .descr a i, .events__wrapper .typog a i, .news__unit .card .descr a i {
   transition: 0.4s;
   color: #333;
 }
@@ -2149,7 +2144,7 @@ body {
   flex-wrap: wrap;
 }
 
-.chef h2, .rom_restaurant__unit .box h2, .recipes__unit .box h2, .about_video .video_wrapper h2, .story h2, .aboutUs-mainTop h1, .welcome_top .mainTop__wrapper h1, .welcome__unit .box h2, .wrapper .pato .txt h2, .menu h2, .events h2, .events__wrapper .typog .timer__items .timer__item, .reservation .unit .box1 h2, .review h2, .video .video_wrapper h2, .news h2, .menu-mainTop h1, .lunch_jump .wrapper h2, .dinner_jump .wrapper h2, .reservation-mainTop h1, .book_table h2 {
+.blog-mainTop h1, .chef h2, .rom_restaurant__unit .box h2, .recipes__unit .box h2, .about_video .video_wrapper h2, .story h2, .aboutUs-mainTop h1, .welcome_top .mainTop__wrapper h1, .welcome__unit .box h2, .wrapper .pato .txt h2, .menu h2, .events h2, .events__wrapper .typog .timer__items .timer__item, .reservation .unit .box1 h2, .review h2, .video .video_wrapper h2, .news h2, .menu-mainTop h1, .lunch_jump .wrapper h2, .dinner_jump .wrapper h2, .reservation-mainTop h1, .book_table h2 {
   font-family: "Poppins", sans-serif;
   text-align: center;
   line-height: 50px;
@@ -2171,22 +2166,21 @@ body {
   color: #666;
 }
 
-.welcome__unit .box a, .advantages__unit .card .descr a, .events__wrapper .typog a, .news__unit .card .descr a {
+.blog_wrapper__unit section .section a, .welcome__unit .box a, .advantages__unit .card .descr a, .events__wrapper .typog a, .news__unit .card .descr a {
   color: #222;
   font-size: 12px;
   font-weight: 400;
   font-family: "Montserrat", sans-serif;
   display: block;
-  text-align: center;
   transition: 0.4s;
 }
-.welcome__unit .box a:hover, .advantages__unit .card .descr a:hover, .events__wrapper .typog a:hover, .news__unit .card .descr a:hover {
+.blog_wrapper__unit section .section a:hover, .welcome__unit .box a:hover, .advantages__unit .card .descr a:hover, .events__wrapper .typog a:hover, .news__unit .card .descr a:hover {
   color: #d61c22;
 }
-.welcome__unit .box a:hover i, .advantages__unit .card .descr a:hover i, .events__wrapper .typog a:hover i, .news__unit .card .descr a:hover i {
+.blog_wrapper__unit section .section a:hover i, .welcome__unit .box a:hover i, .advantages__unit .card .descr a:hover i, .events__wrapper .typog a:hover i, .news__unit .card .descr a:hover i {
   color: #d61c22;
 }
-.welcome__unit .box a i, .advantages__unit .card .descr a i, .events__wrapper .typog a i, .news__unit .card .descr a i {
+.blog_wrapper__unit section .section a i, .welcome__unit .box a i, .advantages__unit .card .descr a i, .events__wrapper .typog a i, .news__unit .card .descr a i {
   transition: 0.4s;
   color: #333;
 }
@@ -2201,7 +2195,7 @@ body {
   letter-spacing: 3px;
 }
 
-.chef h2, .rom_restaurant__unit .box h2, .recipes__unit .box h2, .about_video .video_wrapper h2, .story h2, .aboutUs-mainTop h1, .welcome_top .mainTop__wrapper h1, .welcome__unit .box h2, .wrapper .pato .txt h2, .menu h2, .events h2, .events__wrapper .typog .timer__items .timer__item, .reservation .unit .box1 h2, .review h2, .video .video_wrapper h2, .news h2, .menu-mainTop h1, .lunch_jump .wrapper h2, .dinner_jump .wrapper h2, .reservation-mainTop h1, .book_table h2 {
+.blog-mainTop h1, .chef h2, .rom_restaurant__unit .box h2, .recipes__unit .box h2, .about_video .video_wrapper h2, .story h2, .aboutUs-mainTop h1, .welcome_top .mainTop__wrapper h1, .welcome__unit .box h2, .wrapper .pato .txt h2, .menu h2, .events h2, .events__wrapper .typog .timer__items .timer__item, .reservation .unit .box1 h2, .review h2, .video .video_wrapper h2, .news h2, .menu-mainTop h1, .lunch_jump .wrapper h2, .dinner_jump .wrapper h2, .reservation-mainTop h1, .book_table h2 {
   font-family: "Poppins", sans-serif;
   text-align: center;
   line-height: 50px;
@@ -2223,22 +2217,21 @@ body {
   color: #666;
 }
 
-.welcome__unit .box a, .advantages__unit .card .descr a, .events__wrapper .typog a, .news__unit .card .descr a {
+.blog_wrapper__unit section .section a, .welcome__unit .box a, .advantages__unit .card .descr a, .events__wrapper .typog a, .news__unit .card .descr a {
   color: #222;
   font-size: 12px;
   font-weight: 400;
   font-family: "Montserrat", sans-serif;
   display: block;
-  text-align: center;
   transition: 0.4s;
 }
-.welcome__unit .box a:hover, .advantages__unit .card .descr a:hover, .events__wrapper .typog a:hover, .news__unit .card .descr a:hover {
+.blog_wrapper__unit section .section a:hover, .welcome__unit .box a:hover, .advantages__unit .card .descr a:hover, .events__wrapper .typog a:hover, .news__unit .card .descr a:hover {
   color: #d61c22;
 }
-.welcome__unit .box a:hover i, .advantages__unit .card .descr a:hover i, .events__wrapper .typog a:hover i, .news__unit .card .descr a:hover i {
+.blog_wrapper__unit section .section a:hover i, .welcome__unit .box a:hover i, .advantages__unit .card .descr a:hover i, .events__wrapper .typog a:hover i, .news__unit .card .descr a:hover i {
   color: #d61c22;
 }
-.welcome__unit .box a i, .advantages__unit .card .descr a i, .events__wrapper .typog a i, .news__unit .card .descr a i {
+.blog_wrapper__unit section .section a i, .welcome__unit .box a i, .advantages__unit .card .descr a i, .events__wrapper .typog a i, .news__unit .card .descr a i {
   transition: 0.4s;
   color: #333;
 }
@@ -2450,7 +2443,7 @@ body {
   flex-wrap: wrap;
 }
 
-.chef h2, .rom_restaurant__unit .box h2, .recipes__unit .box h2, .about_video .video_wrapper h2, .story h2, .aboutUs-mainTop h1, .welcome_top .mainTop__wrapper h1, .welcome__unit .box h2, .wrapper .pato .txt h2, .menu h2, .events h2, .events__wrapper .typog .timer__items .timer__item, .reservation .unit .box1 h2, .review h2, .video .video_wrapper h2, .news h2, .menu-mainTop h1, .lunch_jump .wrapper h2, .dinner_jump .wrapper h2, .reservation-mainTop h1, .book_table h2 {
+.blog-mainTop h1, .chef h2, .rom_restaurant__unit .box h2, .recipes__unit .box h2, .about_video .video_wrapper h2, .story h2, .aboutUs-mainTop h1, .welcome_top .mainTop__wrapper h1, .welcome__unit .box h2, .wrapper .pato .txt h2, .menu h2, .events h2, .events__wrapper .typog .timer__items .timer__item, .reservation .unit .box1 h2, .review h2, .video .video_wrapper h2, .news h2, .menu-mainTop h1, .lunch_jump .wrapper h2, .dinner_jump .wrapper h2, .reservation-mainTop h1, .book_table h2 {
   font-family: "Poppins", sans-serif;
   text-align: center;
   line-height: 50px;
@@ -2472,22 +2465,21 @@ body {
   color: #666;
 }
 
-.welcome__unit .box a, .advantages__unit .card .descr a, .events__wrapper .typog a, .news__unit .card .descr a {
+.blog_wrapper__unit section .section a, .welcome__unit .box a, .advantages__unit .card .descr a, .events__wrapper .typog a, .news__unit .card .descr a {
   color: #222;
   font-size: 12px;
   font-weight: 400;
   font-family: "Montserrat", sans-serif;
   display: block;
-  text-align: center;
   transition: 0.4s;
 }
-.welcome__unit .box a:hover, .advantages__unit .card .descr a:hover, .events__wrapper .typog a:hover, .news__unit .card .descr a:hover {
+.blog_wrapper__unit section .section a:hover, .welcome__unit .box a:hover, .advantages__unit .card .descr a:hover, .events__wrapper .typog a:hover, .news__unit .card .descr a:hover {
   color: #d61c22;
 }
-.welcome__unit .box a:hover i, .advantages__unit .card .descr a:hover i, .events__wrapper .typog a:hover i, .news__unit .card .descr a:hover i {
+.blog_wrapper__unit section .section a:hover i, .welcome__unit .box a:hover i, .advantages__unit .card .descr a:hover i, .events__wrapper .typog a:hover i, .news__unit .card .descr a:hover i {
   color: #d61c22;
 }
-.welcome__unit .box a i, .advantages__unit .card .descr a i, .events__wrapper .typog a i, .news__unit .card .descr a i {
+.blog_wrapper__unit section .section a i, .welcome__unit .box a i, .advantages__unit .card .descr a i, .events__wrapper .typog a i, .news__unit .card .descr a i {
   transition: 0.4s;
   color: #333;
 }
@@ -2502,7 +2494,7 @@ body {
   letter-spacing: 3px;
 }
 
-.chef h2, .rom_restaurant__unit .box h2, .recipes__unit .box h2, .about_video .video_wrapper h2, .story h2, .aboutUs-mainTop h1, .welcome_top .mainTop__wrapper h1, .welcome__unit .box h2, .wrapper .pato .txt h2, .menu h2, .events h2, .events__wrapper .typog .timer__items .timer__item, .reservation .unit .box1 h2, .review h2, .video .video_wrapper h2, .news h2, .menu-mainTop h1, .lunch_jump .wrapper h2, .dinner_jump .wrapper h2, .reservation-mainTop h1, .book_table h2 {
+.blog-mainTop h1, .chef h2, .rom_restaurant__unit .box h2, .recipes__unit .box h2, .about_video .video_wrapper h2, .story h2, .aboutUs-mainTop h1, .welcome_top .mainTop__wrapper h1, .welcome__unit .box h2, .wrapper .pato .txt h2, .menu h2, .events h2, .events__wrapper .typog .timer__items .timer__item, .reservation .unit .box1 h2, .review h2, .video .video_wrapper h2, .news h2, .menu-mainTop h1, .lunch_jump .wrapper h2, .dinner_jump .wrapper h2, .reservation-mainTop h1, .book_table h2 {
   font-family: "Poppins", sans-serif;
   text-align: center;
   line-height: 50px;
@@ -2524,22 +2516,21 @@ body {
   color: #666;
 }
 
-.welcome__unit .box a, .advantages__unit .card .descr a, .events__wrapper .typog a, .news__unit .card .descr a {
+.blog_wrapper__unit section .section a, .welcome__unit .box a, .advantages__unit .card .descr a, .events__wrapper .typog a, .news__unit .card .descr a {
   color: #222;
   font-size: 12px;
   font-weight: 400;
   font-family: "Montserrat", sans-serif;
   display: block;
-  text-align: center;
   transition: 0.4s;
 }
-.welcome__unit .box a:hover, .advantages__unit .card .descr a:hover, .events__wrapper .typog a:hover, .news__unit .card .descr a:hover {
+.blog_wrapper__unit section .section a:hover, .welcome__unit .box a:hover, .advantages__unit .card .descr a:hover, .events__wrapper .typog a:hover, .news__unit .card .descr a:hover {
   color: #d61c22;
 }
-.welcome__unit .box a:hover i, .advantages__unit .card .descr a:hover i, .events__wrapper .typog a:hover i, .news__unit .card .descr a:hover i {
+.blog_wrapper__unit section .section a:hover i, .welcome__unit .box a:hover i, .advantages__unit .card .descr a:hover i, .events__wrapper .typog a:hover i, .news__unit .card .descr a:hover i {
   color: #d61c22;
 }
-.welcome__unit .box a i, .advantages__unit .card .descr a i, .events__wrapper .typog a i, .news__unit .card .descr a i {
+.blog_wrapper__unit section .section a i, .welcome__unit .box a i, .advantages__unit .card .descr a i, .events__wrapper .typog a i, .news__unit .card .descr a i {
   transition: 0.4s;
   color: #333;
 }
@@ -2917,7 +2908,7 @@ body {
   flex-wrap: wrap;
 }
 
-.welcome_top .mainTop__wrapper h1, .welcome__unit .box h2, .wrapper .pato .txt h2, .menu h2, .events h2, .events__wrapper .typog .timer__items .timer__item, .reservation .unit .box1 h2, .review h2, .video .video_wrapper h2, .news h2, .menu-mainTop h1, .lunch_jump .wrapper h2, .dinner_jump .wrapper h2, .reservation-mainTop h1, .book_table h2, .aboutUs-mainTop h1, .story h2, .about_video .video_wrapper h2, .recipes__unit .box h2, .rom_restaurant__unit .box h2, .chef h2 {
+.blog-mainTop h1, .welcome_top .mainTop__wrapper h1, .welcome__unit .box h2, .wrapper .pato .txt h2, .menu h2, .events h2, .events__wrapper .typog .timer__items .timer__item, .reservation .unit .box1 h2, .review h2, .video .video_wrapper h2, .news h2, .menu-mainTop h1, .lunch_jump .wrapper h2, .dinner_jump .wrapper h2, .reservation-mainTop h1, .book_table h2, .aboutUs-mainTop h1, .story h2, .about_video .video_wrapper h2, .recipes__unit .box h2, .rom_restaurant__unit .box h2, .chef h2 {
   font-family: "Poppins", sans-serif;
   text-align: center;
   line-height: 50px;
@@ -2939,22 +2930,21 @@ body {
   color: #666;
 }
 
-.welcome__unit .box a, .advantages__unit .card .descr a, .events__wrapper .typog a, .news__unit .card .descr a {
+.blog_wrapper__unit section .section a, .welcome__unit .box a, .advantages__unit .card .descr a, .events__wrapper .typog a, .news__unit .card .descr a {
   color: #222;
   font-size: 12px;
   font-weight: 400;
   font-family: "Montserrat", sans-serif;
   display: block;
-  text-align: center;
   transition: 0.4s;
 }
-.welcome__unit .box a:hover, .advantages__unit .card .descr a:hover, .events__wrapper .typog a:hover, .news__unit .card .descr a:hover {
+.blog_wrapper__unit section .section a:hover, .welcome__unit .box a:hover, .advantages__unit .card .descr a:hover, .events__wrapper .typog a:hover, .news__unit .card .descr a:hover {
   color: #d61c22;
 }
-.welcome__unit .box a:hover i, .advantages__unit .card .descr a:hover i, .events__wrapper .typog a:hover i, .news__unit .card .descr a:hover i {
+.blog_wrapper__unit section .section a:hover i, .welcome__unit .box a:hover i, .advantages__unit .card .descr a:hover i, .events__wrapper .typog a:hover i, .news__unit .card .descr a:hover i {
   color: #d61c22;
 }
-.welcome__unit .box a i, .advantages__unit .card .descr a i, .events__wrapper .typog a i, .news__unit .card .descr a i {
+.blog_wrapper__unit section .section a i, .welcome__unit .box a i, .advantages__unit .card .descr a i, .events__wrapper .typog a i, .news__unit .card .descr a i {
   transition: 0.4s;
   color: #333;
 }
@@ -2969,7 +2959,7 @@ body {
   letter-spacing: 3px;
 }
 
-.welcome_top .mainTop__wrapper h1, .welcome__unit .box h2, .wrapper .pato .txt h2, .menu h2, .events h2, .events__wrapper .typog .timer__items .timer__item, .reservation .unit .box1 h2, .review h2, .video .video_wrapper h2, .news h2, .menu-mainTop h1, .lunch_jump .wrapper h2, .dinner_jump .wrapper h2, .reservation-mainTop h1, .book_table h2, .aboutUs-mainTop h1, .story h2, .about_video .video_wrapper h2, .recipes__unit .box h2, .rom_restaurant__unit .box h2, .chef h2 {
+.blog-mainTop h1, .welcome_top .mainTop__wrapper h1, .welcome__unit .box h2, .wrapper .pato .txt h2, .menu h2, .events h2, .events__wrapper .typog .timer__items .timer__item, .reservation .unit .box1 h2, .review h2, .video .video_wrapper h2, .news h2, .menu-mainTop h1, .lunch_jump .wrapper h2, .dinner_jump .wrapper h2, .reservation-mainTop h1, .book_table h2, .aboutUs-mainTop h1, .story h2, .about_video .video_wrapper h2, .recipes__unit .box h2, .rom_restaurant__unit .box h2, .chef h2 {
   font-family: "Poppins", sans-serif;
   text-align: center;
   line-height: 50px;
@@ -2991,22 +2981,21 @@ body {
   color: #666;
 }
 
-.welcome__unit .box a, .advantages__unit .card .descr a, .events__wrapper .typog a, .news__unit .card .descr a {
+.blog_wrapper__unit section .section a, .welcome__unit .box a, .advantages__unit .card .descr a, .events__wrapper .typog a, .news__unit .card .descr a {
   color: #222;
   font-size: 12px;
   font-weight: 400;
   font-family: "Montserrat", sans-serif;
   display: block;
-  text-align: center;
   transition: 0.4s;
 }
-.welcome__unit .box a:hover, .advantages__unit .card .descr a:hover, .events__wrapper .typog a:hover, .news__unit .card .descr a:hover {
+.blog_wrapper__unit section .section a:hover, .welcome__unit .box a:hover, .advantages__unit .card .descr a:hover, .events__wrapper .typog a:hover, .news__unit .card .descr a:hover {
   color: #d61c22;
 }
-.welcome__unit .box a:hover i, .advantages__unit .card .descr a:hover i, .events__wrapper .typog a:hover i, .news__unit .card .descr a:hover i {
+.blog_wrapper__unit section .section a:hover i, .welcome__unit .box a:hover i, .advantages__unit .card .descr a:hover i, .events__wrapper .typog a:hover i, .news__unit .card .descr a:hover i {
   color: #d61c22;
 }
-.welcome__unit .box a i, .advantages__unit .card .descr a i, .events__wrapper .typog a i, .news__unit .card .descr a i {
+.blog_wrapper__unit section .section a i, .welcome__unit .box a i, .advantages__unit .card .descr a i, .events__wrapper .typog a i, .news__unit .card .descr a i {
   transition: 0.4s;
   color: #333;
 }
@@ -3196,7 +3185,7 @@ body {
   flex-wrap: wrap;
 }
 
-.welcome_top .mainTop__wrapper h1, .welcome__unit .box h2, .wrapper .pato .txt h2, .menu h2, .events h2, .events__wrapper .typog .timer__items .timer__item, .reservation .unit .box1 h2, .review h2, .video .video_wrapper h2, .news h2, .menu-mainTop h1, .lunch_jump .wrapper h2, .dinner_jump .wrapper h2, .reservation-mainTop h1, .book_table h2, .aboutUs-mainTop h1, .story h2, .about_video .video_wrapper h2, .recipes__unit .box h2, .rom_restaurant__unit .box h2, .chef h2 {
+.blog-mainTop h1, .welcome_top .mainTop__wrapper h1, .welcome__unit .box h2, .wrapper .pato .txt h2, .menu h2, .events h2, .events__wrapper .typog .timer__items .timer__item, .reservation .unit .box1 h2, .review h2, .video .video_wrapper h2, .news h2, .menu-mainTop h1, .lunch_jump .wrapper h2, .dinner_jump .wrapper h2, .reservation-mainTop h1, .book_table h2, .aboutUs-mainTop h1, .story h2, .about_video .video_wrapper h2, .recipes__unit .box h2, .rom_restaurant__unit .box h2, .chef h2 {
   font-family: "Poppins", sans-serif;
   text-align: center;
   line-height: 50px;
@@ -3218,22 +3207,21 @@ body {
   color: #666;
 }
 
-.welcome__unit .box a, .advantages__unit .card .descr a, .events__wrapper .typog a, .news__unit .card .descr a {
+.blog_wrapper__unit section .section a, .welcome__unit .box a, .advantages__unit .card .descr a, .events__wrapper .typog a, .news__unit .card .descr a {
   color: #222;
   font-size: 12px;
   font-weight: 400;
   font-family: "Montserrat", sans-serif;
   display: block;
-  text-align: center;
   transition: 0.4s;
 }
-.welcome__unit .box a:hover, .advantages__unit .card .descr a:hover, .events__wrapper .typog a:hover, .news__unit .card .descr a:hover {
+.blog_wrapper__unit section .section a:hover, .welcome__unit .box a:hover, .advantages__unit .card .descr a:hover, .events__wrapper .typog a:hover, .news__unit .card .descr a:hover {
   color: #d61c22;
 }
-.welcome__unit .box a:hover i, .advantages__unit .card .descr a:hover i, .events__wrapper .typog a:hover i, .news__unit .card .descr a:hover i {
+.blog_wrapper__unit section .section a:hover i, .welcome__unit .box a:hover i, .advantages__unit .card .descr a:hover i, .events__wrapper .typog a:hover i, .news__unit .card .descr a:hover i {
   color: #d61c22;
 }
-.welcome__unit .box a i, .advantages__unit .card .descr a i, .events__wrapper .typog a i, .news__unit .card .descr a i {
+.blog_wrapper__unit section .section a i, .welcome__unit .box a i, .advantages__unit .card .descr a i, .events__wrapper .typog a i, .news__unit .card .descr a i {
   transition: 0.4s;
   color: #333;
 }
@@ -3248,7 +3236,7 @@ body {
   letter-spacing: 3px;
 }
 
-.welcome_top .mainTop__wrapper h1, .welcome__unit .box h2, .wrapper .pato .txt h2, .menu h2, .events h2, .events__wrapper .typog .timer__items .timer__item, .reservation .unit .box1 h2, .review h2, .video .video_wrapper h2, .news h2, .menu-mainTop h1, .lunch_jump .wrapper h2, .dinner_jump .wrapper h2, .reservation-mainTop h1, .book_table h2, .aboutUs-mainTop h1, .story h2, .about_video .video_wrapper h2, .recipes__unit .box h2, .rom_restaurant__unit .box h2, .chef h2 {
+.blog-mainTop h1, .welcome_top .mainTop__wrapper h1, .welcome__unit .box h2, .wrapper .pato .txt h2, .menu h2, .events h2, .events__wrapper .typog .timer__items .timer__item, .reservation .unit .box1 h2, .review h2, .video .video_wrapper h2, .news h2, .menu-mainTop h1, .lunch_jump .wrapper h2, .dinner_jump .wrapper h2, .reservation-mainTop h1, .book_table h2, .aboutUs-mainTop h1, .story h2, .about_video .video_wrapper h2, .recipes__unit .box h2, .rom_restaurant__unit .box h2, .chef h2 {
   font-family: "Poppins", sans-serif;
   text-align: center;
   line-height: 50px;
@@ -3270,22 +3258,489 @@ body {
   color: #666;
 }
 
-.welcome__unit .box a, .advantages__unit .card .descr a, .events__wrapper .typog a, .news__unit .card .descr a {
+.blog_wrapper__unit section .section a, .welcome__unit .box a, .advantages__unit .card .descr a, .events__wrapper .typog a, .news__unit .card .descr a {
   color: #222;
   font-size: 12px;
   font-weight: 400;
   font-family: "Montserrat", sans-serif;
   display: block;
-  text-align: center;
   transition: 0.4s;
 }
-.welcome__unit .box a:hover, .advantages__unit .card .descr a:hover, .events__wrapper .typog a:hover, .news__unit .card .descr a:hover {
+.blog_wrapper__unit section .section a:hover, .welcome__unit .box a:hover, .advantages__unit .card .descr a:hover, .events__wrapper .typog a:hover, .news__unit .card .descr a:hover {
   color: #d61c22;
 }
-.welcome__unit .box a:hover i, .advantages__unit .card .descr a:hover i, .events__wrapper .typog a:hover i, .news__unit .card .descr a:hover i {
+.blog_wrapper__unit section .section a:hover i, .welcome__unit .box a:hover i, .advantages__unit .card .descr a:hover i, .events__wrapper .typog a:hover i, .news__unit .card .descr a:hover i {
   color: #d61c22;
 }
-.welcome__unit .box a i, .advantages__unit .card .descr a i, .events__wrapper .typog a i, .news__unit .card .descr a i {
+.blog_wrapper__unit section .section a i, .welcome__unit .box a i, .advantages__unit .card .descr a i, .events__wrapper .typog a i, .news__unit .card .descr a i {
+  transition: 0.4s;
+  color: #333;
+}
+
+.menu-main_menu .unit .card .wrapper .top_title {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.2;
+  color: #222222;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.blog-mainTop {
+  width: 100%;
+  height: 80vh;
+  margin-top: -115px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: url("https://preview.colorlib.com/theme/pato/images/bg-title-page-03.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.blog-mainTop h1 {
+  color: white;
+  font-size: 50px;
+  text-transform: uppercase;
+  line-height: 1.2;
+  letter-spacing: 6px;
+  word-spacing: 6px;
+}
+
+.directory {
+  border-bottom: 1px solid #e6e6e6;
+  height: 59px;
+  width: 100%;
+  padding: 17px 0;
+  background-color: #FFFFFF;
+  padding-left: 20px;
+}
+.directory p {
+  font-weight: 400;
+  margin-top: 4px;
+  font-size: 12px;
+  color: #999999;
+  line-height: 1.5;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.directory a {
+  font-weight: 400;
+  font-size: 12px;
+  color: #222222;
+  line-height: 1.5;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.blog_wrapper {
+  background-color: white;
+}
+.blog_wrapper__unit {
+  display: flex;
+  justify-content: center;
+}
+.blog_wrapper__unit section {
+  padding: 80px 50px 124px 20px;
+  flex-basis: 75%;
+  width: 100%;
+  border-right: 1px solid #e6e6e6;
+}
+.blog_wrapper__unit section .section {
+  padding-bottom: 63px;
+}
+.blog_wrapper__unit section .section .image {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative;
+}
+.blog_wrapper__unit section .section .image img {
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+  -o-object-fit: cover;
+     object-fit: cover;
+  cursor: pointer;
+}
+.blog_wrapper__unit section .section .image img:hover {
+  transform: scale(1.1);
+}
+.blog_wrapper__unit section .section .image .stick {
+  position: absolute;
+  width: 75px;
+  height: 82px;
+  border-radius: 10px;
+  background-color: #d61c22;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.blog_wrapper__unit section .section .image .stick h4 {
+  font-weight: 700;
+  font-size: 39px;
+  color: white;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 4px;
+}
+.blog_wrapper__unit section .section .image .stick .stick_date {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 12px;
+  color: white;
+}
+.blog_wrapper__unit section .section h3 {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.2;
+  color: #222222;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-top: 33px;
+}
+.blog_wrapper__unit section .section span {
+  margin-top: 16px;
+  font-weight: 400;
+  font-size: 12px;
+  color: #808080;
+  line-height: 1.5;
+}
+.blog_wrapper__unit section .section .title_info {
+  padding-top: 24px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.7;
+  color: #666666;
+  margin: 0px;
+}
+.blog_wrapper__unit section .section a {
+  margin-top: 30px;
+}
+.blog_wrapper__unit section .pagination {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 73px;
+  margin-top: 25px;
+  gap: 12px;
+}
+.blog_wrapper__unit section .pagination .circle:nth-child(1) {
+  background-color: #333;
+  color: white;
+}
+.blog_wrapper__unit section .pagination .circle {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid #e6e6e6;
+  font-weight: 400;
+  font-size: 13px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.blog_wrapper__unit section .pagination .circle:hover {
+  background-color: #333;
+  color: white;
+}
+.blog_wrapper__unit aside {
+  flex-basis: 25%;
+  width: 100%;
+  padding: 80px 20px 80px 50px;
+}
+.blog_wrapper__unit aside .search {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.blog_wrapper__unit aside .search input {
+  width: 100%;
+  height: 100%;
+  font-weight: 400;
+  font-size: 14px;
+  color: #666666;
+  border: 2px solid #d9d9d9;
+  padding-left: 20px;
+}
+.blog_wrapper__unit aside .search input::-moz-placeholder {
+  color: #666;
+}
+.blog_wrapper__unit aside .search input::placeholder {
+  color: #666;
+}
+.blog_wrapper__unit aside .search button {
+  min-width: 46px;
+  height: 100%;
+  background-color: #333;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.blog_wrapper__unit aside .search button i {
+  transition: 0.3s;
+}
+.blog_wrapper__unit aside .search button:hover .fa-magnifying-glass {
+  color: #d61c22;
+}
+.blog_wrapper__unit aside .categories {
+  margin-top: 58px;
+}
+.blog_wrapper__unit aside .categories h3 {
+  margin-bottom: 35px;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 22px;
+  color: #222222;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.blog_wrapper__unit aside .categories ul li:nth-child(1) {
+  border-top: 1px solid #e6e6e6;
+}
+.blog_wrapper__unit aside .categories ul li {
+  border-bottom: 1px solid #e6e6e6;
+  padding: 8px 0;
+  font-weight: 400;
+  font-size: 12px;
+  color: #222;
+  line-height: 1.5;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.blog_wrapper__unit aside .populyar {
+  margin-top: 58px;
+}
+.blog_wrapper__unit aside .populyar h3 {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 22px;
+  color: #222;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 35px;
+}
+.blog_wrapper__unit aside .populyar__unit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.blog_wrapper__unit aside .populyar__unit .card {
+  margin-bottom: 25px;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.blog_wrapper__unit aside .populyar__unit .card img {
+  width: 70px;
+  height: 70px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}
+.blog_wrapper__unit aside .populyar__unit .card .descr h5 {
+  width: 152px;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 12px;
+  color: #222222;
+  line-height: 1.5;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  margin-bottom: 8px;
+}
+.blog_wrapper__unit aside .populyar__unit .card .descr p {
+  font-weight: 400;
+  font-size: 13px;
+  color: #999999;
+  line-height: 1.7;
+}
+.blog_wrapper__unit aside .archive {
+  margin-top: 43px;
+}
+.blog_wrapper__unit aside .archive h3 {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 22px;
+  color: #222;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 35px;
+}
+.blog_wrapper__unit aside .archive ul li {
+  padding: 8px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 400;
+  font-size: 12px;
+  color: #222222;
+  line-height: 1.5;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.blog_wrapper__unit aside .archive ul li:hover {
+  color: #d61c22;
+}
+.blog_wrapper__unit aside .archive ul li .archive_cont {
+  color: #999999;
+}
+
+@media (max-width: 767px) {
+  .blog_wrapper__unit {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .blog_wrapper__unit section {
+    padding: 80px 20px 24px 20px;
+  }
+  .blog_wrapper__unit section .pagination {
+    margin-top: 0;
+  }
+  .blog_wrapper__unit aside {
+    padding: 80px 20px 80px 20px;
+  }
+  .blog_wrapper__unit aside .populyar__unit .card {
+    justify-content: flex-start;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.welcome_top .mainTop__wrapper h1, .welcome__unit .box h2, .wrapper .pato .txt h2, .menu h2, .events h2, .events__wrapper .typog .timer__items .timer__item, .reservation .unit .box1 h2, .review h2, .video .video_wrapper h2, .news h2, .menu-mainTop h1, .lunch_jump .wrapper h2, .dinner_jump .wrapper h2, .reservation-mainTop h1, .book_table h2, .aboutUs-mainTop h1, .story h2, .about_video .video_wrapper h2, .recipes__unit .box h2, .rom_restaurant__unit .box h2, .chef h2, .blog-mainTop h1 {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  line-height: 50px;
+}
+
+.welcome_top .mainTop__wrapper span, .welcome__unit .box span, .wrapper .pato .txt span, .menu span, .events .titleTop, .reservation .unit .box1 span, .review span, .video .video_wrapper span, .news .titleTop, .book_table .titleTop, .story span, .about_video .video_wrapper span, .recipes__unit .box span, .rom_restaurant__unit .box span, .chef .titleTop {
+  font-family: "Courgette", cursive;
+  display: block;
+  text-align: center;
+}
+
+.reservation .unit .box1 form .form_wrapper .column input,
+.reservation .unit .box1 form .form_wrapper .column select, .specialsSignUp form input, .book_table form .row .box input, .feedback form .row .box input {
+  border-radius: 10px;
+  padding-left: 20px;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 14px;
+  color: #666;
+}
+
+.welcome__unit .box a, .advantages__unit .card .descr a, .events__wrapper .typog a, .news__unit .card .descr a, .blog_wrapper__unit section .section a {
+  color: #222;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  display: block;
+  transition: 0.4s;
+}
+.welcome__unit .box a:hover, .advantages__unit .card .descr a:hover, .events__wrapper .typog a:hover, .news__unit .card .descr a:hover, .blog_wrapper__unit section .section a:hover {
+  color: #d61c22;
+}
+.welcome__unit .box a:hover i, .advantages__unit .card .descr a:hover i, .events__wrapper .typog a:hover i, .news__unit .card .descr a:hover i, .blog_wrapper__unit section .section a:hover i {
+  color: #d61c22;
+}
+.welcome__unit .box a i, .advantages__unit .card .descr a i, .events__wrapper .typog a i, .news__unit .card .descr a i, .blog_wrapper__unit section .section a i {
+  transition: 0.4s;
+  color: #333;
+}
+
+.menu-main_menu .unit .card .wrapper .top_title {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.2;
+  color: #222222;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.welcome_top .mainTop__wrapper h1, .welcome__unit .box h2, .wrapper .pato .txt h2, .menu h2, .events h2, .events__wrapper .typog .timer__items .timer__item, .reservation .unit .box1 h2, .review h2, .video .video_wrapper h2, .news h2, .menu-mainTop h1, .lunch_jump .wrapper h2, .dinner_jump .wrapper h2, .reservation-mainTop h1, .book_table h2, .aboutUs-mainTop h1, .story h2, .about_video .video_wrapper h2, .recipes__unit .box h2, .rom_restaurant__unit .box h2, .chef h2, .blog-mainTop h1 {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  line-height: 50px;
+}
+
+.welcome_top .mainTop__wrapper span, .welcome__unit .box span, .wrapper .pato .txt span, .menu span, .events .titleTop, .reservation .unit .box1 span, .review span, .video .video_wrapper span, .news .titleTop, .book_table .titleTop, .story span, .about_video .video_wrapper span, .recipes__unit .box span, .rom_restaurant__unit .box span, .chef .titleTop {
+  font-family: "Courgette", cursive;
+  display: block;
+  text-align: center;
+}
+
+.reservation .unit .box1 form .form_wrapper .column input,
+.reservation .unit .box1 form .form_wrapper .column select, .specialsSignUp form input, .book_table form .row .box input, .feedback form .row .box input {
+  border-radius: 10px;
+  padding-left: 20px;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 14px;
+  color: #666;
+}
+
+.welcome__unit .box a, .advantages__unit .card .descr a, .events__wrapper .typog a, .news__unit .card .descr a, .blog_wrapper__unit section .section a {
+  color: #222;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  display: block;
+  transition: 0.4s;
+}
+.welcome__unit .box a:hover, .advantages__unit .card .descr a:hover, .events__wrapper .typog a:hover, .news__unit .card .descr a:hover, .blog_wrapper__unit section .section a:hover {
+  color: #d61c22;
+}
+.welcome__unit .box a:hover i, .advantages__unit .card .descr a:hover i, .events__wrapper .typog a:hover i, .news__unit .card .descr a:hover i, .blog_wrapper__unit section .section a:hover i {
+  color: #d61c22;
+}
+.welcome__unit .box a i, .advantages__unit .card .descr a i, .events__wrapper .typog a i, .news__unit .card .descr a i, .blog_wrapper__unit section .section a i {
   transition: 0.4s;
   color: #333;
 }

@@ -1,0 +1,28 @@
+@import "../components/media_breakpoints";
+@import "../utils/variables";
+
+@include tablet () {
+    .blog_wrapper {
+        &__unit {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            section {
+                padding: 80px 20px 24px 20px;
+                .pagination {
+                    margin-top: 0;
+                }
+            }
+            aside {
+                padding: 80px 20px 80px 20px;
+                .populyar {
+                    &__unit {
+                        .card {
+                            justify-content: flex-start;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

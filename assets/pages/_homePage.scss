@@ -126,7 +126,8 @@ body {
             }
 
             a {
-                @extend %a
+                @extend %a;
+                text-align: center;
             }
         }
 
